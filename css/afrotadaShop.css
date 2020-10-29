@@ -1,0 +1,312 @@
+:root 
+{--Background-colour: #E8F1CD;
+--Background-gradient: #DCE8B9;
+--Orange: #F15B12;
+--Hover-orange: #CD5014;
+--Lemon: #84A528;
+--Active-black: #040404;
+--Inactive-black: #373737;
+--Inactive-black-2: #727272;
+--Inactive-black-3: #D2D2D2;
+--White: #FFFFFF;
+--Border-black: #ADADAD;
+}
+
+
+/**********************************GLOBAL STYLES********************************************/
+/**********************************GLOBAL STYLES********************************************/
+/**********************************GLOBAL STYLES********************************************/
+
+* {
+  margin: 0;
+  background: var(--Background-colour) 0% 0% no-repeat padding-box;
+  line-height: 150%;
+}
+
+a {
+  text-decoration-line: none;
+  color: var(--Active-black);
+}
+
+
+a:hover {
+  color: var(--Hover-orange);
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-5 {
+  width: 41.6666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3332%;
+}
+
+.col-8 {
+  width: 66.6665%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3331%;
+}
+
+.col-11 {
+  width: 91.6664%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/**********************************END OF GLOBAL STYLES********************************************/
+/**********************************END OF GLOBAL STYLES********************************************/
+/**********************************END OF GLOBAL STYLES********************************************/
+
+/**********************************HEADER STYLES********************************************/
+/**********************************HEADER STYLES********************************************/
+/**********************************HEADER STYLES********************************************/
+
+
+header {
+  display: flex;
+  text-align: center;
+  /* margin: auto; */
+  position: absolute;
+  top: 2.5vh;
+  left: 5vw;
+  right: 5vw;
+}
+
+header img{
+  position: absolute;
+  left: -3vw;
+  top: 2vh;
+}
+
+nav {
+  font-size: 1.5vw;
+  position: absolute;
+  left: 32vw;
+  top: 5vh;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 1.5vw;
+  font-size: 1.7vw;
+}
+
+section .underNav {
+  background-color: var(--Background-gradient);
+}
+
+.home {
+}
+
+.aboutUs {
+ color: var(--orange)
+}
+
+a li #afrotadaShop {
+  color: var(--orange);
+}
+
+#contactUs {
+ 
+}
+
+.joinOurTeam{
+  color: var(--Lemon);
+}
+
+#list{
+  list-style: none;
+  display: none;
+  position: absolute;
+}
+
+.underNav{
+  position: absolute;
+  margin-top: 5vh;
+} 
+
+.underNav p {
+  color: var(--Orange)
+}
+
+section {
+  width: 100vw;
+}
+
+section p{
+  font-size: 1.9vw;
+  font-weight: bold;
+  position: absolute;
+  left: -19.5vw;
+  margin-top: 10vh;
+  
+}
+#search {
+  text-align: left;
+  position: absolute;
+  left: 55vw;
+  margin-top: 9vh;
+  /* top: -0.5vw; */
+  width: 30vw;
+  min-height: 7.6vh;
+  max-height: 7.6vh;
+  background-color: white;
+  border-color: white;
+  border-style: none;
+}
+
+::placeholder {
+  padding-left: 1vw;
+  font-size: 1.3vw;
+}
+
+#searchIcon {
+  color: white;
+  background-color: var(--Orange);
+  width: 1.29vw;
+  padding: 1vw;
+  margin-bottom: 0;
+  position: absolute;
+  /* top: -1vh; */
+  left: 81.7vw;
+  margin-top: 7vh;
+}
+
+button {
+  display: contents;
+}
+
+
+/**********************************END OF HEADER STYLES********************************************/
+/**********************************END OF HEADER STYLES********************************************/
+/**********************************END OF HEADER STYLES********************************************/
+
+/**********************************BODY STYLES********************************************/
+/**********************************BODY STYLES********************************************/
+/**********************************BODY STYLES********************************************/
+body {
+  background-repeat: no-repeat;
+  background-color: var(--Background-colour);
+}
+main {
+  position: absolute;
+  top: 25vh;
+  left: 5vw;
+  right: 5vw;
+}
+
+main img {
+  position: absolute;
+  left: 20vw;
+  width: 50vw;
+}
+
+
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+
+/**********************************FOOTER STYLES********************************************/
+/**********************************FOOTER STYLES********************************************/
+/**********************************FOOTER STYLES********************************************/
+
+footer {
+  position: absolute;
+  bottom: 10vh;
+  text-align: center;
+}
+
+.followUs {
+  font-size: 1.75vw;
+  position: absolute;
+  width: 15vw;
+  top: 50vh;
+  left: 41vw;
+}
+
+.socialMedia {
+  position: absolute;
+  left: 45vw;
+  top: 60vh;
+  display: flex;
+}
+
+img.socialMediaIcon1 {
+  position: absolute;
+  width: 3vw;
+  left: -3vw;
+}
+
+img.socialMediaIcon2 {
+  position: absolute;
+  width: 3vw;
+  left: 2vw;
+}
+
+img.socialMediaIcon3 {
+  position: absolute;
+  width: 3vw;
+  left: 7vw;
+}
+
+.policy {
+  display: flex;
+  position: absolute;
+  left: 34vw;
+  display: flex;
+  width: 40vw;
+  top: 75vh;
+}
+
+.policy li {
+  margin-right: 2vw;
+  font-size: 1.5vw;
+  margin-bottom: 5vh;
+  list-style: none;
+}
+
+.backToTop {
+  position: absolute;
+  left: 52vw;
+  width: 3vw;
+  margin-bottom: 5vw;
+}
+
+.backToTopText {
+  position: absolute;
+  left: 37vw;
+  font-size: 1.5vw;
+  width: 20vw;
+}
+/**********************************END OF FOOTER STYLES********************************************/
+/**********************************END OF FOOTER STYLES********************************************/
+/**********************************END OF FOOTER STYLES********************************************/
