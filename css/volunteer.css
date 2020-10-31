@@ -1,14 +1,16 @@
-Background colour - #E8F1CD
-Orange - #F15B12
-Hover orange - #CD5014
-Lemon - #84A528
-Active black - #040404
-Inactive black - #373737
-Inactive black 2 - #727272
-Inactive black 3 - #D2D2D2
-White - #FFFFFF
-Border black - #ADADAD
-
+:root 
+{--Background-colour: #E8F1CD;
+--Background-gradient: #DCE8B9;
+--Orange: #F15B12;
+--Hover-orange: #CD5014;
+--Lemon: #84A528;
+--Active-black: #040404;
+--Inactive-black: #373737;
+--Inactive-black-2: #727272;
+--Inactive-black-3: #D2D2D2;
+--White: #FFFFFF;
+--Border-black: #ADADAD;
+}
 
 /**********************************GLOBAL STYLES********************************************/
 /**********************************GLOBAL STYLES********************************************/
@@ -16,18 +18,23 @@ Border black - #ADADAD
 
 * {
   margin: 0;
-  background: #e8f1cd 0% 0% no-repeat padding-box;
+  border: 0;
+  padding: 0;
+  background: var(--Background-colour) 0% 0% no-repeat padding-box;
   line-height: 150%;
+  box-sizing: border-box;
 }
 
 a {
   text-decoration-line: none;
-  color: black;
+  color: var(--Active-black);
 }
 
+
 a:hover {
-  color: #f15b12;
+  color: var(--Hover-orange);
 }
+
 
 .col-1 {
   width: 8.3333%;
@@ -91,16 +98,16 @@ header {
   text-align: center;
   margin: auto;
   position: fixed;
-  top: 2.5vh;
+     
   left: 5vw;
   right: 5vw;
 }
 
 nav {
   font-size: 1.5vw;
-  position: absolute;
+   ;
   left: 23vw;
-  top: 5vh;
+     
   display: flex;
 }
 
@@ -135,7 +142,7 @@ nav li {
 #list{
   list-style: none;
   display: none;
-  position: absolute;
+   ;
 }
 
 #joinOurTeam:hover{
@@ -144,15 +151,15 @@ nav li {
 
 
 #languageSelector {
-  position: absolute;
+   ;
   left: 60vw;
-  top: 0.6vh;
+     
   background-color: white;
   font-size: 1.3vw;
 }
 
 .afroTadaLogo img {
-  position: absolute;
+   ;
   width: 15vw;
   top: 3vh;
   left: 0vw;
@@ -160,7 +167,7 @@ nav li {
 
 #search {
   text-align: left;
-  position: absolute;
+   ;
   left: 31vw;
   top: 16vw;
   width: 30vw;
@@ -181,7 +188,7 @@ nav li {
   width: 1.28vw;
   padding: 1vw;
   margin-bottom: 0;
-  position: absolute;
+   ;
   top: 33.37vh;
   left: 57.7vw;
 }
@@ -202,14 +209,14 @@ body {
   background-color: #DCE8B9;
 }
 main {
-  position: absolute;
+   ;
   top: 20vh;
   margin-left: 5vw;
   margin-right: 5vw;
 }
 
 main img {
-  position: absolute;
+   ;
   left: 9vw;
 }
 
@@ -223,73 +230,179 @@ main img {
 /**********************************FOOTER STYLES********************************************/
 
 footer {
-  position: absolute;
-  bottom: 10vh;
   text-align: center;
 }
 
-.followUs {
+#followUsText {
   font-size: 1.75vw;
-  position: absolute;
   width: 15vw;
-  top: 110vh;
-  left: 41vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
 }
 
-.socialMedia {
-  position: absolute;
-  left: 45vw;
-  top: 120vh;
-  display: flex;
+#socialMedia img{
+  margin: auto;
+  margin-top: 2vh;
 }
 
-img.socialMediaIcon1 {
-  position: absolute;
+img#socialMediaIcon1 {
   width: 3vw;
-  left: -3vw;
+  margin-right: 1vw;
 }
 
-img.socialMediaIcon2 {
-  position: absolute;
+img#socialMediaIcon2 {
   width: 3vw;
-  left: 2vw;
+  margin-right: 1vw;
 }
 
-img.socialMediaIcon3 {
-  position: absolute;
+img#socialMediaIcon3 {
   width: 3vw;
-  left: 7vw;
 }
 
-.policy {
+#policy {
   display: flex;
-  position: absolute;
-  left: 34vw;
-  display: flex;
-  width: 40vw;
-  top: 135vh;
+  width: 100%;
+  padding-left: 35%;
+  margin-top: 2%;
 }
 
-.policy li {
+#policy li {
   margin-right: 2vw;
   font-size: 1.5vw;
   margin-bottom: 5vh;
   list-style: none;
 }
 
-.backToTop {
-  position: absolute;
-  left: 52vw;
-  width: 3vw;
-  margin-bottom: 5vw;
+#backToTop {
+  padding-left: 22%;
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+  width: 40%
 }
 
-.backToTopText {
-  position: absolute;
-  left: 37vw;
-  font-size: 1.5vw;
-  width: 20vw;
+#backToTop img {
+  padding-left: 10%;
+  width: 4vw;
 }
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
+@media screen and (max-width: 1024px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 2vw;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 2.2vh;
+    padding-left: 15vw;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 12%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 768px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 2vw;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 2.2vh;
+    padding-left: 15vw;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 12%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 2vw;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 2.2vh;
+    padding-left: 15vw;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 1vh;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 10%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+}

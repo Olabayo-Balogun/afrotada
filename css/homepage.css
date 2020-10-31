@@ -1,14 +1,16 @@
-Background colour - #E8F1CD
-Orange - #F15B12
-Hover orange - #CD5014
-Lemon - #84A528
-Active black - #040404
-Inactive black - #373737
-Inactive black 2 - #727272
-Inactive black 3 - #D2D2D2
-White - #FFFFFF
-Border black - #ADADAD
-
+:root 
+{--Background-colour: #E8F1CD;
+--Background-gradient: #DCE8B9;
+--Orange: #F15B12;
+--Hover-orange: #CD5014;
+--Lemon: #84A528;
+--Active-black: #040404;
+--Inactive-black: #373737;
+--Inactive-black-2: #727272;
+--Inactive-black-3: #D2D2D2;
+--White: #FFFFFF;
+--Border-black: #ADADAD;
+}
 
 /**********************************GLOBAL STYLES********************************************/
 /**********************************GLOBAL STYLES********************************************/
@@ -89,17 +91,17 @@ header {
   display: flex;
   text-align: center;
   margin: auto;
-  position: absolute;
-  top: 2.5vh;
+   ;
+     
   left: 5vw;
   right: 5vw;
 }
 
 nav {
   font-size: 1.5vw;
-  position: absolute;
+   ;
   left: 23vw;
-  top: 5vh;
+     
   display: flex;
 }
 
@@ -125,15 +127,15 @@ nav .home {
 }
 
 #languageSelector {
-  position: absolute;
+   ;
   left: 60vw;
-  top: 0.6vh;
+     
   background-color: white;
   font-size: 1.3vw;
 }
 
 .afroTadaLogo img {
-  position: absolute;
+   ;
   width: 15vw;
   top: 3vh;
   left: 0vw;
@@ -152,14 +154,14 @@ body {
 }
 
 main {
-  position: absolute;
+   ;
   top: 20vh;
   margin-left: 5vw;
   margin-right: 5vw;
 }
 
 h1 {
-  position: absolute;
+   ;
   text-align: center;
   color: #84a528;
   top: 1vh;
@@ -174,7 +176,7 @@ h1 {
   text-align: center;
   font-size: 1.5vw;
   width: 32vw;
-  position: absolute;
+   ;
   top: 18vh;
   left: 30vw;
 }
@@ -185,7 +187,7 @@ h1 {
 
 #search {
   text-align: left;
-  position: absolute;
+   ;
   left: 31vw;
   top: 16vw;
   width: 30vw;
@@ -206,7 +208,7 @@ h1 {
   width: 1.28vw;
   padding: 1vw;
   margin-bottom: 0;
-  position: absolute;
+   ;
   top: 33.37vh;
   left: 57.7vw;
 }
@@ -221,7 +223,7 @@ button {
   width: 80vw;
   text-align: center;
   margin: auto;
-  position: absolute;
+   ;
   top: 55vh;
   left: 4vw;
 }
@@ -360,21 +362,21 @@ button {
 
 .catalogue {
   display: flex;
-  position: absolute;
+   ;
   top: 190vh;
   width: 80%;
   left: 20vw;
 }
 
 .latestContribution {
-  position: absolute;
+   ;
   top: 180vh;
   display: flex;
 }
 
 .latestContributionText {
   font-size: 1.6875vw;
-  position: absolute;
+   ;
   left: 13vw;
   width: 25vw;
   font-weight: bold;
@@ -382,7 +384,7 @@ button {
 
 .viewMore {
   font-size: 1.6875vw;
-  position: absolute;
+   ;
   left: 77.7vw;
   width: 10vw;
   font-weight: bold;
@@ -391,19 +393,19 @@ button {
 .radwaImg {
   width: 20vw;
   height: 49vh;
-  position: absolute;
+   ;
   right: 66vw;
 }
 
 img.tag1 {
-  position: absolute;
+   ;
   top: 55vh;
   right: 83.5vw;
   width: 2.3vw;
 }
 
 .bookText1 {
-  position: absolute;
+   ;
   top: 54vh;
   right: 80vw;
   font-size: 1.3vw;
@@ -411,7 +413,7 @@ img.tag1 {
 }
 
 .bookTitle1 {
-  position: absolute;
+   ;
   top: 60vh;
   right: 68vw;
   font-size: 1.3vw;
@@ -420,7 +422,7 @@ img.tag1 {
 }
 
 .contributor1 {
-  position: absolute;
+   ;
   top: 76vh;
   right: 61vw;
   font-size: 1.2vw;
@@ -429,7 +431,7 @@ img.tag1 {
 }
 
 .contributionDate1 {
-  position: absolute;
+   ;
   top: 72vh;
   right: 66vw;
   font-size: 1.2vw;
@@ -438,14 +440,14 @@ img.tag1 {
 }
 
 img.tag2 {
-  position: absolute;
+   ;
   top: 55vh;
   right: 61.5vw;
   width: 2.3vw;
 }
 
 .cultureText {
-  position: absolute;
+   ;
   top: 54vh;
   right: 56.5vw;
   font-size: 1.3vw;
@@ -453,7 +455,7 @@ img.tag2 {
 }
 
 .articleTitle2 {
-  position: absolute;
+   ;
   top: 60vh;
   right: 39vw;
   font-size: 1.3vw;
@@ -462,7 +464,7 @@ img.tag2 {
 }
 
 .contributor2 {
-  position: absolute;
+   ;
   top: 4vh;
   right: 0vw;
   font-size: 1.3vw;
@@ -471,7 +473,7 @@ img.tag2 {
 }
 
 .contributionDate2 {
-  position: absolute;
+   ;
   top: 71.8vh;
   right: 44vw;
   font-size: 1.2vw;
@@ -480,14 +482,14 @@ img.tag2 {
 }
 
 img.tag3 {
-  position: absolute;
+   ;
   top: 55vh;
   right: 25.5vw;
   width: 2.3vw;
 }
 
 .bookText3 {
-  position: absolute;
+   ;
   top: 54vh;
   right: 22vw;
   font-size: 1.3vw;
@@ -495,7 +497,7 @@ img.tag3 {
 }
 
 .bookTitle3 {
-  position: absolute;
+   ;
   top: 60vh;
   right: 12.6vw;
   font-size: 1.3vw;
@@ -504,7 +506,7 @@ img.tag3 {
 }
 
 .contributionDate3 {
-  position: absolute;
+   ;
   top: 71vh;
   right: 10.5vw;
   font-size: 1.2vw;
@@ -515,13 +517,13 @@ img.tag3 {
 .shonaImg {
   width: 30vw;
   height: 49vh;
-  position: absolute;
+   ;
   left: 15vw;
 }
 
 .sihle {
   width: 15vw;
-  position: absolute;
+   ;
   right: 12.5vw;
 }
 
@@ -534,47 +536,47 @@ img.tag3 {
 /**********************************FOOTER STYLES********************************************/
 
 footer {
-  position: absolute;
+   ;
   bottom: 10vh;
   text-align: center;
 }
 
-.followUs {
+.followUsText {
   font-size: 1.75vw;
-  position: absolute;
+   ;
   width: 15vw;
   top: 210vh;
   left: 42.5vw;
 }
 
 .socialMedia {
-  position: absolute;
+   ;
   left: 45vw;
   top: 220vh;
   display: flex;
 }
 
 img.socialMediaIcon1 {
-  position: absolute;
+   ;
   width: 3vw;
   left: -2vw;
 }
 
 img.socialMediaIcon2 {
-  position: absolute;
+   ;
   width: 3vw;
   left: 3.5vw;
 }
 
 img.socialMediaIcon3 {
-  position: absolute;
+   ;
   width: 3vw;
   left: 8.5vw;
 }
 
 .policy {
   display: flex;
-  position: absolute;
+   ;
   left: 34vw;
   display: flex;
   width: 40vw;
@@ -589,14 +591,14 @@ img.socialMediaIcon3 {
 }
 
 .backToTop {
-  position: absolute;
+   ;
   left: 52vw;
   width: 3vw;
   bottom: 5vh;
 }
 
 .backToTopText {
-  position: absolute;
+   ;
   left: 38vw;
   font-size: 1.5vw;
   width: 20vw;
