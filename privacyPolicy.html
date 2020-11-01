@@ -9,42 +9,32 @@
   </head>
   <body>
     <header id="home" >
-      <img class="afrotadaLogo" src="/img/AfroTada with text and shadow.png" alt="AfroTada Logo" />
-      <nav>
-        <a class="home" href="/homepage.html">Home</a>
-          <a href="/resources.html">Resources</a>
-          <a href="/aboutUs.html">About Us</a>
-          <a href="/afrotadaShop.html">AfroTada Shop</a> 
-          <a href="/contactUs.html">Contact Us</a>
-          <a id="joinOurTeam" href="/joinOurTeam.html">Join Our Team</a>
-          <select name="languageSelector" id="languageSelector">
-            English
-            <option lang="en" value="english" selected>English</option>
-            <option lang="fr" value="francais">Français</option>
-            <option lang="por" value="portugese">Portugese</option>
-            <option lang="ara" value="arabic">Arabic</option>
-            <option lang="span" value="spanish">Spanish</option>
-            <option lang="sw" value="swahili">Swahili</option>
-            <option lang="yr" value="yoruba">Yoruba</option>
-            <option lang="ha" value="hausa">Hausa</option>
-            <option lang="ig" value="igbo">Igbo</option>
-            <option lang="zulu" value="zulu">Zulu</option>
-            <option lang="afr" value="afrikaans">Afrikaans</option>
-            <option lang="amh" value="ahmaric">Ahmaric</option>
-          </select>
-      </nav>
-      <p>PRIVACY POLICY</p>
-      <div class="search">
-          <input type="search" name="" id="search" value="" placeholder="What are you looking for"/> <button type="submit"><img src="/img/Search icon.svg" alt="search button" /></button>
-        </div>
+      <img class="afrotadaLogo col-3" src="/img/AfroTada with text and shadow.png" alt="AfroTada Logo" />
+      <nav class="col-9">
+        <li><a class="home" href="/index.html">Home</a></li> 
+        <li><a id="resources" href="/resources.html">Resources</a></li>
+        <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
+        <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
+        <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
+        <li>
+        <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
+        </li>
+      </nav>     
     </header>
+    <section id="underNav">
+      <div id="afrotadaShopText" class="col-4">PRIVACY POLICY</div>
+      <form class="search col-4" action="#">
+        <input type="search" placeholder= "What are you looking for" name="search">
+        <button type="submit"><img id="searchIcon" src="/img/Search icon.svg" alt="search button" /></button>
+      </form>
+    </section>
     <main>
-      <p id="home">
+      <p>
         What would it be like if content and information about Africa can be curated and properly preserved in one place, that is what AfroTada aims to achieve.
       </p>
       <h1>AfroTada Privacy Policy</h1>  
       <p>
-        AfroTada is a non-profit initiative that is responsible for the operation of the AfroTada website (www.afrotada.com). This Privacy Policy describes AfroTada’s policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+        AfroTada is a non-profit initiative that is responsible for the operation of the AfroTada website <a href="/index.html">(www.afrotada.com)</a>. This Privacy Policy describes AfroTada’s policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
       </p>  
         
       <h2>
@@ -89,9 +79,11 @@
         Types of Data Collected: While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or provide better service for You. 
       </p> 
       <p>Personally identifiable information may include;</p> 
-      <li>Email address</li>
-      <li>First name and last name</li>
-      <li>Usage Data: Usage Data is collected automatically when using the Service.</li>
+      <ul>
+        <li>Email address</li>
+        <li>First name and last name</li>
+        <li>Usage Data: Usage Data is collected automatically when using the Service.</li>
+      </ul>
       <p>
         Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data. We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device. For this reason, we keep information related to your use of the AfroTada website confidential, except as provided in this Policy.
       </p> 
@@ -107,16 +99,17 @@
       <p>
         The Initiative may use Personal Data for the following purposes:
       </p> 
-        
-      <li>
-        To provide and maintain our Service, including to monitor the usage of our Service.
-        To provide You with content, and general information about services through our personalized mailing list.
-      </li>  
-
-      <li>
-        To Request for contribution: The website is used to solicit for contributions from interested individuals who would like to. This only applies to individuals that volunteered to provide contributions to the Service.
-      </li>  
-      
+      <ul>
+        <li>
+          To provide and maintain our Service, including to monitor the usage of our Service.
+          To provide You with content, and general information about services through our personalized mailing list.
+        </li>  
+  
+        <li>
+          To Request for contribution: The website is used to solicit for contributions from interested individuals who would like to. This only applies to individuals that volunteered to provide contributions to the Service.
+        </li>
+      </ul>  
+            
       <h2>
         Use of Personal Data for Communications
       </h2> 
@@ -132,34 +125,32 @@
       <p>
         AfroTada will only disclose personal information when required to do so by law or when we have your explicit permission to do so. In the case of legal obligations;
       </p>  
-        
-      <li>
-        Law enforcement: Under certain circumstances, the Initiative may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
-      </li>  
-      <li>
-        Other legal requirements: The Initiative may disclose Your Personal Data in the good faith belief that such action is necessary to:
-        <ul>
-          <li>
-            Comply with a legal obligation
-          </li>
-          <li>
-            Protect and defend the rights or property of the Initiative
-          </li>
-          <li>
-            Prevent or investigate possible wrongdoing in connection with the Service
-          </li>
-          <li>
-            Protect the personal safety of Users of the Service or the public
-          </li>
-          <li>
-            Protect against legal liability
-          </li>
-          <li>
-
-          </li>
-        </ul>
-      </li>  
-        
+      <ul>
+        <li>
+          Law enforcement: Under certain circumstances, the Initiative may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+        </li>  
+        <li>
+          Other legal requirements: The Initiative may disclose Your Personal Data in the good faith belief that such action is necessary to:
+          <ul>
+            <li>
+              Comply with a legal obligation
+            </li>
+            <li>
+              Protect and defend the rights or property of the Initiative
+            </li>
+            <li>
+              Prevent or investigate possible wrongdoing in connection with the Service
+            </li>
+            <li>
+              Protect the personal safety of Users of the Service or the public
+            </li>
+            <li>
+              Protect against legal liability
+            </li>
+          </ul>
+        </li>  
+      </ul>  
+      
       <h2>
         Security of Your Personal Data
       </h2> 
@@ -204,11 +195,11 @@
       </h2> 
       
       <p>
-        If you have any questions about this Privacy Policy, You can contact us by email: info@afrotada.com or click <a href="/contactUs">here</a>
+        If you have any questions about this Privacy Policy, You can contact us by email: info@afrotada.com or click <span><a href="/contactUs">here</a></span> 
       </p> 
-      <p id="lastUpdate">
+      <span>
         Last Updated: July 30 2020
-      </p>
+      </span>
     </main>
     <!------------------------------------------FOOTER HTML-------------------------------------------->
     <!------------------------------------------FOOTER HTML--------------------------------------------->
@@ -249,17 +240,9 @@
         <li>
           <a href="/cookiePolicy.html">Cookie policy</a>
         </li>
-        <div>
-          <a href="#home">
-            <p class="backToTopText">Back to top</p>
-
-            <img
-              id="backToTop"
-              src="/img/circled up arrow.svg"
-              alt="vertically pointed arrow"
-            />
-          </a>
-        </div>
+        <a id="backToTop" href="#home">Back to top<img
+          src="/img/circled up arrow.svg"
+          alt="vertically pointed arrow"/></a>
       </div>
     </footer>
     <!------------------------------------------END OF FOOTER HTML------------------------------------------------>

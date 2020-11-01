@@ -11,6 +11,7 @@
 --White: #FFFFFF;
 --Border-black: #ADADAD;
 }
+
 /**********************************GLOBAL STYLES********************************************/
 /**********************************GLOBAL STYLES********************************************/
 /**********************************GLOBAL STYLES********************************************/
@@ -94,149 +95,158 @@ a:hover {
 
 header {
   display: flex;
-  text-align: center;
-  margin: auto;
-  position: fixed;
-     
-  left: 5vw;
-  right: 5vw;
+  background-color: var(--Background-gradient);  
+  padding-bottom: 1vw;
+  margin-right: -2vw;
+  width: 100%;
+}
+
+header img{
+  margin-top: 1%;
+  margin-left: 2%;
+  background-color: var(--Background-gradient);  
 }
 
 nav {
   font-size: 1.5vw;
-   ;
-  left: 23vw;
-     
   display: flex;
+  margin-top: 2%;   
+  padding-left: 15vw;
+  background-color: var(--Background-gradient);  
 }
 
 nav li {
   list-style: none;
-  margin-right: 1vw;
+  margin-right: 1.5%;
+  font-size: 1.7vw;
+  background-color: var(--Background-gradient);  
 }
-  .home {
-    margin-right: 2vw;
-  }
+
+.home{
+  background-color: var(--Background-gradient);  
+}
+
+#resources{
+  background-color: var(--Background-gradient);  
+}
+
+#aboutUs{
+  background-color: var(--Background-gradient);  
+} 
+
+#afrotadaShop{
+  background-color: var(--Background-gradient);
+}
+
+#contactUs{
+  background-color: var(--Background-gradient);  
+} 
+
+#joinOurTeam{
+  color: var(--Lemon);
+  background-color: var(--Background-gradient);
+}
+
+section {
+  display: flex;  
+  background-color: var(--Background-gradient);
+  padding-bottom: 1%;
+}
+
+#afrotadaShopText{
+  font-size: 1.9vw;
+  font-weight: bold;
+  color: var(--Orange);
+  margin-left: 2vw;
+  background-color: var(--Background-gradient);
+  padding-top: 0.3%; 
+}
+
+form{
+  display: flex;
+  margin-left: 27%;
+  background-color: var(--Background-gradient);
+  padding-bottom: 1vh;
   
-  #about {
-    margin-right: 2vw;
-    margin-left: 2vw;
-  }
-  
-  #afrotadaShop {
-    margin-right: 2vw;
-  }
-  
-  #contactUs {
-    margin-right: 2vw;
-  }
-  
-  #languageSelector {
-     ;
-    left: 60vw;
-       
-    background-color: white;
-    font-size: 1.3vw;
-  }
-  
-  .afroTadaLogo img {
-     ;
-    width: 15vw;
-    top: 3vh;
-    left: 0vw;
-  }
-  #search {
-    text-align: left;
-     ;
-    left: 31vw;
-    top: 16vw;
-    width: 30vw;
-    height: 7vh;
-    background-color: white;
-    border-color: white;
-    border-style: none;
-  }
-  
-  ::placeholder {
+}
+
+input {
     padding-left: 1vw;
-    font-size: 1.5625vw;
-  }
-  
-  #searchIcon {
-    color: white;
-    background-color: #f15b12;
-    width: 1.28vw;
-    padding: 1vw;
-    margin-bottom: 0;
-     ;
-    top: 33.37vh;
-    left: 57.7vw;
-  }
-  
-  button {
-    display: contents;
-  }
-  
-  
-  #cookiePolicy {
-    color: --var(orange)
-  }
-  /**********************************END OF HEADER STYLES********************************************/
-  /**********************************END OF HEADER STYLES********************************************/
-  /**********************************END OF HEADER STYLES********************************************/
-  
-  /**********************************BODY STYLES********************************************/
-  /**********************************BODY STYLES********************************************/
-  /**********************************BODY STYLES********************************************/
-  body {
-    background-repeat: no-repeat;
-    background-color: #DCE8B9;
-  }
+    padding-top: 2%;
+    padding-bottom: 2%;
+  font-size: 1.5vw;
+  background-color: white;
+  width: 30vw;
+  height: 100%;
+  border: none;
+  outline: none;
+}
 
-  main {
-     ;
-    top: 20vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    /* background-color: --var(Backgroundcolor); */
-  }
+img#searchIcon {
+  width: 12%;
+  padding: 0.5vw;
+  color: white;
+  background-color: var(--Orange);
+  height: 100%;
+  margin-right: 5%;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
+}
 
-  h1 { 
-    color: #84a528;
-    /* top: 1vh;
-    left: 21vw;
-    width: 50vw;
-    font: normal normal 600 4vw/5.0625vw Hind Siliguri;
-    letter-spacing: 0px;
-    text-shadow: 0px 3px 10px #0404044f; */
-  }
+button {
+  display: contents;
+}
 
-  
-  h2 {
-    color: #84a528;
-    /* top: 1vh;
-    left: 21vw;
-    width: 50vw;
-    font: normal normal 600 4vw/5.0625vw Hind Siliguri;
-    letter-spacing: 0px;
-    text-shadow: 0px 3px 10px #0404044f; */
-  }
+/**********************************END OF HEADER STYLES********************************************/
+/**********************************END OF HEADER STYLES********************************************/
+/**********************************END OF HEADER STYLES********************************************/
 
-  
-  p {
+/**********************************BODY STYLES********************************************/
+/**********************************BODY STYLES********************************************/
+/**********************************BODY STYLES********************************************/
+body {
+  background-repeat: no-repeat;
+  background-color: var(--Background-colour);
+}
 
-    text-align: justify;
-    color: black;
-    /* top: 1vh;
-    left: 21vw;
-    width: 50vw;
-    font: normal normal 600 4vw/5.0625vw Hind Siliguri;
-    letter-spacing: 0px;
-    text-shadow: 0px 3px 10px #0404044f; */
-  }
+main {
+  margin: auto;
+  width: 80vw;  
+}
 
-  
-  /**********************************FOOTER STYLES********************************************/
+main img {
+   width: 3vw;
+}
+
+h1:first-child {
+  margin-top: 3%;
+}
+
+h1, h2, h3 {
+  color: var(--Lemon);
+  text-align: left;
+  font-size: 3vw;
+  margin-bottom: 2%;
+}
+
+span{
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 2%;
+  font-size: 1.5vw;
+}
+
+li img{
+  width: 1vw;
+}
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+
+/**********************************FOOTER STYLES********************************************/
 /**********************************FOOTER STYLES********************************************/
 /**********************************FOOTER STYLES********************************************/
 
@@ -285,6 +295,10 @@ img#socialMediaIcon3 {
   list-style: none;
 }
 
+li #cookiePolicyText{
+  color: var(--Hover-orange);
+}
+
 #backToTop {
   padding-left: 22%;
   font-size: 1.5vw;
@@ -319,8 +333,8 @@ img#socialMediaIcon3 {
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2vh;
-    padding-bottom: 1.2vh;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -358,8 +372,8 @@ img#socialMediaIcon3 {
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2vh;
-    padding-bottom: 1.2vh;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -398,8 +412,8 @@ img#socialMediaIcon3 {
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2vh;
-    padding-bottom: 1.2vh;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;

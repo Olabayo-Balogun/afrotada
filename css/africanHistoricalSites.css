@@ -102,22 +102,22 @@ header {
 }
 
 header img{
-  padding-top: 3vh;
-  padding-left: 2vw;
+  margin-top: 1%;
+  margin-left: 2%;
   background-color: var(--Background-gradient);  
 }
 
 nav {
   font-size: 1.5vw;
   display: flex;
-  padding-top: 5vh;   
+  margin-top: 2%;   
   padding-left: 15vw;
   background-color: var(--Background-gradient);  
 }
 
 nav li {
   list-style: none;
-  margin-right: 1.5vw;
+  margin-right: 1.5%;
   font-size: 1.7vw;
   background-color: var(--Background-gradient);  
 }
@@ -171,9 +171,9 @@ form{
 }
 
 input {
-  padding-left: 1vw;
-  padding-top: 1.2vh;
-  padding-bottom: 1.2vh;
+    padding-left: 1vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
   font-size: 1.5vw;
   background-color: white;
   width: 30vw;
@@ -303,8 +303,8 @@ img#socialMediaIcon3 {
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2vh;
-    padding-bottom: 1.2vh;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -342,8 +342,8 @@ img#socialMediaIcon3 {
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2vh;
-    padding-bottom: 1.2vh;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -382,8 +382,8 @@ img#socialMediaIcon3 {
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2vh;
-    padding-bottom: 1.2vh;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
