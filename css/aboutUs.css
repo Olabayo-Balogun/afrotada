@@ -25,6 +25,9 @@
   box-sizing: border-box;
 }
 
+/* WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) */
+/*UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)  */
+
 a {
   text-decoration-line: none;
   color: var(--Active-black);
@@ -111,7 +114,7 @@ nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  padding-left: 15vw;
+  padding-left: 17%;
   background-color: var(--Background-gradient);  
 }
 
@@ -232,20 +235,24 @@ section#intro{
 .purpose{
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 70%;
   margin: auto;
   margin-top: 5%;
+  font-weight: bolder;
+  text-align: justify;
 }
-.purposeImage{
-  margin-bottom: 5vh;
-  padding-top: 5vh;
+.purpose img{
+ background-color: var(--Background-color);
 }
 
-.purposeText{
+
+.purpose li{
   font-size: 1.5vw;
   margin: auto;
   margin-bottom: 5%;
-  text-align: justify;
+  /* list-style-image: url(/img/AfroTada\ with\ shadow.svg);
+  list-style-position: inside; */
+
 }
 
 main {
@@ -257,7 +264,7 @@ main img {
    width: 3vw;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: var(--Lemon);
   text-align: center;
   text-justify: auto;
@@ -266,19 +273,122 @@ h1, h2, h3 {
 }
 
 p {
-  text-align: justify;
   font-weight: bold;
 }
 
-section .visionAndMission {
+section.visionAndMission {
   display: flex;
+  background-color: var(--Background-colour);
+  width:60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.vision{
+  background-color: var(--Background-gradient);
+  border-radius: 5%;
+  width: 30%;
+  margin-right: 15%;
+  margin-left: 10%
+}
+
+.mission{
+  background-color: var(--Background-gradient);
+  border-radius: 5%;
+  width: 30%;
+}
+
+h3{
+  background-color: var(--Background-gradient);
+  margin-bottom: 0;
+  color: var(--Lemon);
+  text-align: center;
+  text-justify: auto;
+  font-size: 3vw;
+  padding-top: 5%;
+  border-radius: 10%;
+}
+
+.vision p{
+  background-color: var(--Background-gradient);
+  width: 70%;
+  margin: auto;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.mission p{
+  background-color: var(--Background-gradient);
+  padding-bottom: 10%;
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
 }
 
 li img{
   width: 1vw;
+  margin-right: 5%;
+  background-color: var(--Background-gradient)
 }
 .orangeText {
   color: --var(orange)
+}
+
+#objectives{
+  width: 45%;
+  margin: auto;
+  background-color: var(--Background-gradient);
+  display:block;
+  margin-top: 5%;
+  border-radius: 5%;
+  margin-right: 29%;
+}
+
+#ourObjectivesText{
+  margin-bottom: 5%;
+}
+
+#objectives li{
+  background-color: var(--Background-gradient);
+  list-style-type: none;
+  padding-left: 10%;
+  font-weight: bolder;
+  padding-right: 10%;
+}
+
+#objectives li:last-child{
+  padding-bottom: 5%;
+  text-align: justify;
+}
+
+li {
+  list-style-type: none;
+}
+
+.logoInterpretation{
+  width:45%;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  background-color: var(--Background-gradient);
+  border-radius:5%;
+  margin-right: 29%;
+  margin-bottom: 5%;
+}
+
+.logoInterpretation p{  
+  background-color: var(--Background-gradient);
+  padding-left: 5%;
+  margin: auto;
+  padding-right: 5%;
+}
+
+.logoInterpretation p:last-child{  
+  padding-bottom: 5%;
+}
+
+span{
+  background-color: var(--Background-gradient);
 }
 
 #blueText {
@@ -297,26 +407,42 @@ li img{
   color: green;
 }
 
+
 #blackText{
   color: black;
-   ;
-  top: 290vh;
-  
+  font-size: 3vw;
+  background-color: var(--Background-colour);
+  padding-bottom: 1%;
 }
 
-section #ourTeam{
-  width: 70vw;
+#ourTeam{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10%;
+  display: block;
+  background-color: var(--Background-colour);
 }
+
 .teamProfile {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10%;
+}
+
+.teamMember {
+  display: flex;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
 
 .teamMemberImg img{
-  width: 5vw;
+  width: 80%;
+  border-radius: 100%;
 }
-#teamMemberDesignation{
+
+p.name{
   color: var(--Lemon);
+  font-size: 1.5vw;
 }
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
@@ -388,7 +514,7 @@ img#socialMediaIcon3 {
 @media screen and (max-width: 1024px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0;
     background-color: var(--Background-gradient);  
   }
   
@@ -396,7 +522,7 @@ img#socialMediaIcon3 {
     font-size: 1.5vw;
     display: flex;
     padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -427,7 +553,7 @@ img#socialMediaIcon3 {
 @media screen and (max-width: 768px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0;
     background-color: var(--Background-gradient);  
   }
   
@@ -435,7 +561,7 @@ img#socialMediaIcon3 {
     font-size: 1.5vw;
     display: flex;
     padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -462,12 +588,20 @@ img#socialMediaIcon3 {
     height: 100%;
     margin-right: 5%;
   }
+
+  p{
+    font-size: 1.7vw;
+  }
+
+  li{
+    font-size: 1.7vw;
+  }
 }
 
 @media screen and (max-width: 480px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0vw;
     background-color: var(--Background-gradient);  
   }
   
@@ -475,7 +609,7 @@ img#socialMediaIcon3 {
     font-size: 1.5vw;
     display: flex;
     padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -484,8 +618,8 @@ img#socialMediaIcon3 {
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2%;
-    padding-bottom: 1.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -501,5 +635,13 @@ img#socialMediaIcon3 {
     background-color: var(--Orange);
     height: 100%;
     margin-right: 5%;
+  }
+
+  p{
+    font-size: 1.7vw;
+  }
+
+  li{
+    font-size: 1.7vw;
   }
 }

@@ -48,5 +48,16 @@
             "italic": false
         }
     ],
-    "compile-hero.disable-compile-files-on-did-save-code": false
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "cSpell.words": [
+        "Olaitan's",
+        "Olaowo's",
+        "Simotwo",
+        "Tada",
+        "Zainab",
+        "Zainabu",
+        "Zainabu's",
+        "olaitan",
+        "olaowo"
+    ]
 }

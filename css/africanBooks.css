@@ -25,6 +25,9 @@
   box-sizing: border-box;
 }
 
+/* WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) */
+/*UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)  */
+
 a {
   text-decoration-line: none;
   color: var(--Active-black);
@@ -92,111 +95,112 @@ a:hover {
 /**********************************HEADER STYLES********************************************/
 /**********************************HEADER STYLES********************************************/
 
+
 header {
   display: flex;
-  text-align: center;
-  margin: auto;
-  position: fixed;
-     
-  left: 5vw;
-  right: 5vw;
+  background-color: var(--Background-gradient);  
+  padding-bottom: 1vw;
+  margin-right: -2vw;
+  width: 100%;
+}
+
+header img{
+  margin-top: 1%;
+  margin-left: 2%;
+  background-color: var(--Background-gradient);  
 }
 
 nav {
   font-size: 1.5vw;
-   ;
-  left: 23vw;
-     
   display: flex;
+  margin-top: 2%;   
+  padding-left: 17%;
+  background-color: var(--Background-gradient);  
 }
 
 nav li {
   list-style: none;
-  margin-right: 1vw;
+  margin-right: 1.5%;
+  font-size: 1.7vw;
+  background-color: var(--Background-gradient);  
 }
 
-.home {
-  margin-right: 2vw;
+.home{
+  background-color: var(--Background-gradient);  
 }
 
-#aboutUs {
-  margin-right: 2vw;
-  margin-left: 2vw;
+#resources{
+  background-color: var(--Background-gradient);  
 }
 
-#afrotadaShop {
-  margin-right: 2vw;
+#aboutUs{
+  background-color: var(--Background-gradient);
+} 
+
+#afrotadaShop{
+  background-color: var(--Background-gradient);
 }
 
-#contactUs {
-  margin-right: 2vw;
-}
+#contactUs{
+  background-color: var(--Background-gradient);  
+} 
 
 #joinOurTeam{
-  font-style: normal;
-  list-style: none;
-  box-sizing: border-box;
-  display: inline-block
+  color: var(--Lemon);
+  background-color: var(--Background-gradient);
 }
 
-#list{
-  list-style: none;
-  display: none;
-   ;
+section {
+  display: flex;  
+  background-color: var(--Background-gradient);
+  padding-bottom: 1%;
 }
 
-#joinOurTeam:hover{
-  display: block;
+#africanBooksText{
+  font-size: 1.9vw;
+  font-weight: bold;
+  color: var(--Orange);
+  margin-left: 2vw;
+  background-color: var(--Background-gradient);
+  padding-top: 0.3%; 
 }
 
-#languageSelector {
-   ;
-  left: 60vw;
-     
+form{
+  display: flex;
+  margin-left: 27%;
+  background-color: var(--Background-gradient);
+  padding-bottom: 1vh;
+  
+}
+
+input {
+    padding-left: 1vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  font-size: 1.5vw;
   background-color: white;
-  font-size: 1.3vw;
-}
-
-.afroTadaLogo img {
-   ;
-  width: 15vw;
-  top: 3vh;
-  left: 0vw;
-}
-
-#search {
-  text-align: left;
-   ;
-  left: 31vw;
-  top: 16vw;
   width: 30vw;
-  height: 7vh;
-  background-color: white;
-  border-color: white;
-  border-style: none;
+  height: 100%;
+  border: none;
+  outline: none;
 }
 
-::placeholder {
-  padding-left: 1vw;
-  font-size: 1.5625vw;
-}
-
-#searchIcon {
+img#searchIcon {
+  width: 12%;
+  padding: 0.5vw;
   color: white;
-  background-color: #f15b12;
-  width: 1.28vw;
-  padding: 1vw;
-  margin-bottom: 0;
-   ;
-  top: 33.37vh;
-  left: 57.7vw;
+  background-color: var(--Orange);
+  height: 100%;
+  margin-right: 5%;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
 }
 
 button {
   display: contents;
+  color: var(--White);
+  font-size: 1.2vw;
 }
-
-
 /**********************************END OF HEADER STYLES********************************************/
 /**********************************END OF HEADER STYLES********************************************/
 /**********************************END OF HEADER STYLES********************************************/
@@ -206,33 +210,104 @@ button {
 /**********************************BODY STYLES********************************************/
 body {
   background-repeat: no-repeat;
-  background-color: #DCE8B9;
+  background-color: var(--Background-colour);
 }
+
 main {
-   ;
-  top: 20vh;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  background-color: var(--Background-colour);
 }
 
 .book {
-    display: flex;
-    margin-bottom: 5vw;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
 }
 
 .book img {
-    width: 20vw;
+  width: 80%;
+  background-color: var(--Background-colour);
 }
 
-section {
-    display: flex;
-     ;
-    top: 470vh;
-    left: 12vw;
+h3{
+  font-size: 2vw;
 }
 
-section img {
-    width: 7vw;
+p{
+  font-size: 1.5625vw;
+  padding-top: 5%;
+  text-align: justify;
+}
+
+#continueReadingButton{
+  width: 30%;
+  color: var(--White);
+  padding: 1%;
+  padding-left: 4%;
+  font-size: 1.5vw;
+  background-color: var(--Active-black);
+  border-radius: 5%;
+  display: inline-block;
+  margin-top: 2%;
+}
+
+#pageNumber {
+  display: flex;
+  background-color: var(--Background-colour);
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#firstPage{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#previousPage{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageOne{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageTwo{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageThree{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageFour{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageFive{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageSix{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#nextPage{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#lastPage{
+  padding-right: 10%;
+  width: 80%;
 }
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
@@ -243,73 +318,199 @@ section img {
 /**********************************FOOTER STYLES********************************************/
 
 footer {
-   ;
-  bottom: 10vh;
   text-align: center;
 }
 
-.followUsText {
+#followUsText {
   font-size: 1.75vw;
-   ;
   width: 15vw;
-  top: 410vh;
-  left: 41vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.socialMedia {
-   ;
-  left: 45vw;
-  top: 420vh;
-  display: flex;
+#socialMedia img{
+  margin: auto;
+  margin-top: 2vh;
 }
 
-img.socialMediaIcon1 {
-   ;
+img#socialMediaIcon1 {
   width: 3vw;
-  left: -3vw;
+  margin-right: 1vw;
 }
 
-img.socialMediaIcon2 {
-   ;
+img#socialMediaIcon2 {
   width: 3vw;
-  left: 2vw;
+  margin-right: 1vw;
 }
 
-img.socialMediaIcon3 {
-   ;
+img#socialMediaIcon3 {
   width: 3vw;
-  left: 7vw;
 }
 
-.policy {
+#policy {
   display: flex;
-   ;
-  left: 34vw;
-  display: flex;
-  width: 40vw;
-  top: 135vh;
+  width: 100%;
+  padding-left: 35%;
+  margin-top: 2%;
 }
 
-.policy li {
+#policy li {
   margin-right: 2vw;
   font-size: 1.5vw;
   margin-bottom: 5vh;
   list-style: none;
 }
 
-.backToTop {
-   ;
-  left: 52vw;
-  width: 3vw;
-  margin-bottom: 5vw;
+#backToTop {
+  padding-left: 22%;
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+  width: 40%
 }
 
-.backToTopText {
-   ;
-  left: 37vw;
-  font-size: 1.5vw;
-  width: 20vw;
+#backToTop img {
+  padding-left: 10%;
+  width: 4vw;
 }
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
+@media screen and (max-width: 1024px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 0;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 2.2vh;
+    padding-left: 17%;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 12%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 768px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 0;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 2.2vh;
+    padding-left: 17%;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 12%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+  
+  p{
+    font-size: 1.7vw;
+  }
+
+  li{
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: 480px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 0vw;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 2.2vh;
+    padding-left: 17%;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 1vh;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 10%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+
+  p{
+    font-size: 1.7vw;
+  }
+
+  button {
+    display: contents;
+    color: var(--White);
+    font-size: 1.2vw;
+
+  }
+}

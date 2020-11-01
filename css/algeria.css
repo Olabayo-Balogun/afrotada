@@ -25,6 +25,9 @@
   box-sizing: border-box;
 }
 
+/* WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) */
+/*UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)  */
+
 a {
   text-decoration-line: none;
   color: var(--Active-black);
@@ -237,6 +240,11 @@ main img {
   margin: auto;
   margin-top: 1%;
   padding-top: 7%;
+  transition: transform .2s;
+}
+
+.africanAttractions img:hover{
+  transform: scale(1.2);
 }
 
 .africanBooks img {

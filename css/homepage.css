@@ -266,12 +266,21 @@ button {
   margin: auto;
   margin-top: 0;
   padding-top: 5%;
+  transition: transform .2s;
 }
+
+
+.africanAttractions img:hover{
+  transform: scale(1.2);
+}
+
 
 .africanBooks img {
   width: 8vw;
   background-color: var(--Background-colour);
 }
+
+
 
 .africanBooks p {
   font-size: 1.2vw;
@@ -453,6 +462,11 @@ button {
   width: 80%;
   margin-top: 5%;
   margin: auto;
+  transition: transform .2s;
+}
+
+.catalogue img:hover{
+  transform: scale(1.07);
 }
 
 .radwaImg {

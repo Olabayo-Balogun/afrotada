@@ -25,6 +25,9 @@
   box-sizing: border-box;
 }
 
+/* WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) */
+/*UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)  */
+
 a {
   text-decoration-line: none;
   color: var(--Active-black);
@@ -96,8 +99,6 @@ a:hover {
 header {
   display: flex;
   background-color: var(--Background-gradient);  
-  padding-bottom: 1vw;
-  margin-right: -2vw;
   width: 100%;
 }
 
@@ -111,7 +112,7 @@ nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  padding-left: 15vw;
+  padding-left: 18%;
   background-color: var(--Background-gradient);  
 }
 
@@ -139,7 +140,8 @@ nav li {
 }
 
 #contactUs{
-  background-color: var(--Background-gradient);  
+  background-color: var(--Background-gradient); 
+  color: var(--Hover-orange) 
 } 
 
 #joinOurTeam{
@@ -170,9 +172,9 @@ form{
 }
 
 input {
-    padding-left: 1vw;
-    padding-top: 2%;
-    padding-bottom: 2%;
+  padding-left: 1vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-size: 1.5vw;
   background-color: white;
   width: 30vw;
@@ -208,30 +210,111 @@ body {
   background-color: var(--Background-colour);
 }
 
-main {
-  
-}
-
-h3 {
-  color: var(--Lemon);
-  text-align: left;
-  font-size: 3vw;
-  margin-bottom: 2%;
-  margin-top: 3%;
-}
-
 span{
   font-weight: bold;
   color: var(--Hover-orange);
+  font-size: 1.5vw;
+}
+
+span:nth-child(1) a{
+  font-weight: bold;
+  color: var(--Hover-orange);
+  font-size: 1.5vw;
+}
+
+span:nth-child(2){
+  font-weight: bold;
+  color: var(--Hover-orange);
+  margin-left: 15%;
+  font-size: 1.5vw;
 }
 
 p {
   text-align: justify;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   font-size: 1.5vw;
+  margin-left: 15%;
+  font-weight: bolder;
 }
 
+p:first-child {
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
 
+form:nth-child(1){
+  margin-left: 0;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+  margin-top: 4%;
+  background-color: var(--Background-colour);
+  display: block;
+  height: 20%;
+  margin-bottom: 10%;
+}
+
+label{
+  margin-left: 0;
+  background-color: var(--Background-colour);
+  font-size: 1.7vw;
+  font-weight: bolder;
+}
+
+input#name {
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1.5vw;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+input#email {
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1.5vw;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+textarea{
+  width: 100%;
+  background-color: var(--White);
+  height: 100%;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-bottom: 25%;
+  font-weight: bolder;
+  outline: none;
+  font-size: 1.5vw;
+  resize: none;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+#submit{
+  width: 10%;
+  color: var(--White);
+  padding: 2%;
+  font-size: 1.5vw;
+  background-color: var(--Orange);
+  border-radius: 5%;
+  display: inline-block;
+}
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
@@ -306,7 +389,7 @@ li #cookiePolicyText{
 @media screen and (max-width: 1024px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0;
     background-color: var(--Background-gradient);  
   }
   
@@ -314,7 +397,7 @@ li #cookiePolicyText{
     font-size: 1.5vw;
     display: flex;
     padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -323,8 +406,8 @@ li #cookiePolicyText{
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2%;
-    padding-bottom: 1.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -345,7 +428,7 @@ li #cookiePolicyText{
 @media screen and (max-width: 768px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0;
     background-color: var(--Background-gradient);  
   }
   
@@ -353,7 +436,7 @@ li #cookiePolicyText{
     font-size: 1.5vw;
     display: flex;
     padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -362,8 +445,8 @@ li #cookiePolicyText{
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2%;
-    padding-bottom: 1.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -385,7 +468,7 @@ li #cookiePolicyText{
 @media screen and (max-width: 480px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0;
     background-color: var(--Background-gradient);  
   }
   
@@ -393,7 +476,7 @@ li #cookiePolicyText{
     font-size: 1.5vw;
     display: flex;
     padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -402,8 +485,8 @@ li #cookiePolicyText{
 
   input {
     padding-left: 1vw;
-    padding-top: 1.2%;
-    padding-bottom: 1.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -420,4 +503,42 @@ li #cookiePolicyText{
     height: 100%;
     margin-right: 5%;
   }
+
+  span:nth-child(1) a{
+    font-size: 2vw;
+  }
+
+  p{
+    font-size: 2vw;
+  }
+
+  #followUsText {
+    font-size: 2.5vw;
+  }
+  
+  #policy li {
+    font-size: 1.7vw;
+  }
+  
+  #backToTop {
+    font-size: 1.5vw;
+  }
+  
+  form:nth-child(1){
+    margin-top: 1%;
+  }
+  p {
+    margin-bottom: 2%;
+  }
+
+  input#name{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  input#email{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }
+
