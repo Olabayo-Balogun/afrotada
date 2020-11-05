@@ -6,6 +6,10 @@
     <title>Contact Us</title>
       <link rel="shortcut icon" href="/img/favicon.ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/contactUs.css">
+    <script src="https://unpkg.com/prefixfree@1.0.0/prefixfree.min.js"></script>
+    <script src="https://wzrd.in/standalone/formdata-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
 </head>
 <body>
     <header id="home" >
@@ -42,7 +46,7 @@
         * Required
       </span>
       <div id="form">
-        <form action="">
+        <form name="contactUsForm">
           <label for="name">Name <span>*</span></label><br>
           <input type="text" name="name" id="name" required><br>
           <label for="email">Email <span>*</span></label><br>
@@ -51,7 +55,7 @@
           <textarea name="message" placeholder="Write your message here" required></textarea><br>
           <label for="feedback">Feedback</label><br>
           <textarea name="feedback" id="feedback" placeholder="Give feedback about our products, i.e. The website, Afrotada shop, our content"></textarea><br>
-          <button id="submit">Submit</button>
+          <button type="submit" id="submit">Submit</button>
         </form>
         
       </div>
@@ -104,5 +108,16 @@
         <!------------------------------------------END OF FOOTER HTML---------------------------------->
         <!------------------------------------------END OF FOOTER HTML---------------------------------->
         <!------------------------------------------END OF FOOTER HTML---------------------------------->
+        <script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbx9F3HzvNRN3vpTLa-QR81DT_4CW-e1F3lejU9dZ7j9GwBUWKg/exec>'
+          const form = document.forms['contactUsForm']
+          
+          form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response => console.log('Success!', response))
+              .catch(error => console.error('Error!', error.message))
+          });
+        </script>
 </body>
 </html>

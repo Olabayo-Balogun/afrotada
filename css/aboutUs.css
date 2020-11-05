@@ -424,8 +424,6 @@ span{
 }
 
 .teamProfile {
-  display: flex;
-  flex-wrap: wrap;
   margin-left: 10%;
 }
 
@@ -436,13 +434,20 @@ span{
 }
 
 .teamMemberImg img{
-  width: 80%;
+  width: 15vw;
   border-radius: 100%;
 }
 
 p.name{
   color: var(--Lemon);
   font-size: 1.5vw;
+  width: 30vw;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+#teamMemberDesignation{
+  width: 100%;
 }
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/

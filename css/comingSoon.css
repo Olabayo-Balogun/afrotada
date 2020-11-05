@@ -113,8 +113,8 @@ header img{
 nav {
   font-size: 1.5vw;
   display: flex;
-  padding-top: 5%;  
-  padding-left: 15vw;
+  padding-top: 2%;  
+  padding-left: 18%;
   background-color: var(--Background-gradient);  
 }
 
@@ -297,8 +297,8 @@ img#socialMediaIcon3 {
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-top: 2%;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -329,15 +329,15 @@ img#socialMediaIcon3 {
 @media screen and (max-width: 768px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 2%;
     background-color: var(--Background-gradient);  
   }
   
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-top: 2%;
+    padding-left: 17%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -369,15 +369,15 @@ img#socialMediaIcon3 {
 @media screen and (max-width: 480px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 2%;
     background-color: var(--Background-gradient);  
   }
   
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-top: 2%;
+    padding-left: 18%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
