@@ -313,6 +313,7 @@ textarea{
   background-color: var(--Orange);
   border-radius: 25%;
   display: inline-block;
+  outline: none;
 }
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/

@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-      <link rel="shortcut icon" href="/img/favicon.ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/contactUs.css">
-    <script src="https://unpkg.com/prefixfree@1.0.0/prefixfree.min.js"></script>
-    <script src="https://wzrd.in/standalone/formdata-polyfill@latest"></script>
-    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
 </head>
 <body>
     <header id="home" >
@@ -46,16 +42,17 @@
         * Required
       </span>
       <div id="form">
-        <form name="contactUsForm">
+
+        <form name="contactUsForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe3om48mGNSB5EBxpe5ROhdwF6-EN5_UEAAXS5jymqhsZBfOg/formResponse" method="post">
           <label for="name">Name <span>*</span></label><br>
-          <input type="text" name="name" id="name" required><br>
+          <input type="text" name="entry.1677009032" id="name" required><br>
           <label for="email">Email <span>*</span></label><br>
-          <input type="email" name="email" id="email" required><br>
+          <input type="email" name="entry.1135205437" id="email" required><br>
           <label for="message">Your Message <span>*</span></label><br>
-          <textarea name="message" placeholder="Write your message here" required></textarea><br>
+          <textarea name="entry.288751651" placeholder="Write your message here" required></textarea><br>
           <label for="feedback">Feedback</label><br>
-          <textarea name="feedback" id="feedback" placeholder="Give feedback about our products, i.e. The website, Afrotada shop, our content"></textarea><br>
-          <button type="submit" id="submit">Submit</button>
+          <textarea name="entry.1380973421" id="feedback" placeholder="Give feedback about our products, i.e. The website, Afrotada shop, our content"></textarea><br>
+          <button onclick="window.open('/index.html');" type="submit" id="submit">Submit</button>
         </form>
         
       </div>
@@ -108,16 +105,6 @@
         <!------------------------------------------END OF FOOTER HTML---------------------------------->
         <!------------------------------------------END OF FOOTER HTML---------------------------------->
         <!------------------------------------------END OF FOOTER HTML---------------------------------->
-        <script>
-          const scriptURL = 'https://script.google.com/macros/s/AKfycbx9F3HzvNRN3vpTLa-QR81DT_4CW-e1F3lejU9dZ7j9GwBUWKg/exec>'
-          const form = document.forms['contactUsForm']
-          
-          form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-              .then(response => console.log('Success!', response))
-              .catch(error => console.error('Error!', error.message))
-          });
-        </script>
+        
 </body>
 </html>
