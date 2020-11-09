@@ -250,9 +250,8 @@ section#intro{
   font-size: 1.5vw;
   margin: auto;
   margin-bottom: 5%;
-  /* list-style-image: url(/img/AfroTada\ with\ shadow.svg);
-  list-style-position: inside; */
-
+  /* list-style-image: url(/img/AfroTada\ with\ shadow\ small.svg);
+  list-style-position: outside; */
 }
 
 main {
