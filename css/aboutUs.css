@@ -423,7 +423,9 @@ span{
 }
 
 .teamProfile {
-  margin-left: 10%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .teamMember {
@@ -440,8 +442,8 @@ span{
 p.name{
   color: var(--Lemon);
   font-size: 1.5vw;
-  width: 30vw;
-  padding-left: 20%;
+  width: 20vw;
+  padding-left: 10%;
   padding-top: 5%;
 }
 
@@ -647,5 +649,17 @@ img#socialMediaIcon3 {
 
   li{
     font-size: 1.7vw;
+  }
+
+  .teamProfile{
+    display: block;
+  }
+
+  p.name{
+    color: var(--Lemon);
+    font-size: 1.5vw;
+    width: 40vw;
+    padding-left: 10%;
+    padding-top: 5%;
   }
 }
