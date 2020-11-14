@@ -114,7 +114,7 @@ nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  padding-left: 17%;
+  padding-left: 26%;
   background-color: var(--Background-gradient);  
 }
 
@@ -168,16 +168,15 @@ section {
 
 form{
   display: flex;
-  margin-left: 27%;
+  margin-left: 3%;
   background-color: var(--Background-gradient);
-  padding-bottom: 1vh;
-  
+  padding-bottom: 1vh;  
 }
 
 input {
-    padding-left: 1vw;
-    padding-top: 2%;
-    padding-bottom: 2%;
+  padding-left: 1vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-size: 1.5vw;
   background-color: white;
   width: 30vw;
@@ -188,13 +187,11 @@ input {
 
 img#searchIcon {
   width: 12%;
-  padding: 0.5vw;
+  padding: 2%;
   color: white;
   background-color: var(--Orange);
   height: 100%;
   margin-right: 5%;
-  border-bottom-right-radius: 10%;
-  border-top-right-radius: 10%;
 }
 
 button {
@@ -527,8 +524,8 @@ img#socialMediaIcon3 {
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 17%;
+    padding-top: 1vh;
+    padding-left: 26%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -566,8 +563,8 @@ img#socialMediaIcon3 {
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 17%;
+    padding-top: 1vh;
+    padding-left: 26%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -588,7 +585,7 @@ img#socialMediaIcon3 {
 
   img#searchIcon {
     width: 12%;
-    padding: 0.5vw;
+    padding: 2%;
     color: white;
     background-color: var(--Orange);
     height: 100%;
@@ -614,8 +611,8 @@ img#socialMediaIcon3 {
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 17%;
+    padding-top: 1vh;
+    padding-left: 26%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {

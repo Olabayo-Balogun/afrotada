@@ -113,9 +113,9 @@ header img{
 nav {
   font-size: 1.5vw;
   display: flex;
-  margin-top: 2%;  
-  padding-left: 17.5%;
-  background-color: var(--Background-gradient);  
+  margin-top: 2%;   
+  padding-left: 27%;
+  background-color: var(--Background-gradient);
 }
 
 nav li {
@@ -167,16 +167,15 @@ section {
 
 form{
   display: flex;
-  margin-left: 27%;
+  margin-left: 3%;
   background-color: var(--Background-gradient);
-  padding-bottom: 1vh;
-  
+  padding-bottom: 1vh;  
 }
 
 input {
   padding-left: 1vw;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-size: 1.5vw;
   background-color: white;
   width: 30vw;
@@ -187,13 +186,11 @@ input {
 
 img#searchIcon {
   width: 12%;
-  padding: 0.5vw;
+  padding: 2%;
   color: white;
   background-color: var(--Orange);
   height: 100%;
   margin-right: 5%;
-  border-bottom-right-radius: 10%;
-  border-top-right-radius: 10%;
 }
 
 button {
@@ -319,15 +316,15 @@ li #cookiePolicyText{
 @media screen and (max-width: 1024px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0%;
     background-color: var(--Background-gradient);  
   }
   
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-top: 1vh;
+    padding-left: 27%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -336,8 +333,8 @@ li #cookiePolicyText{
 
   input {
     padding-left: 1vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -358,15 +355,15 @@ li #cookiePolicyText{
 @media screen and (max-width: 768px){
   header img{
     padding-top: 1.5vh;
-    padding-left: 2vw;
+    padding-left: 0%;
     background-color: var(--Background-gradient);  
   }
   
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-top: 1vh;
+    padding-left: 27%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {
@@ -375,8 +372,8 @@ li #cookiePolicyText{
 
   input {
     padding-left: 1vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 1.5vw;
     background-color: white;
     width: 30vw;
@@ -405,8 +402,8 @@ li #cookiePolicyText{
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 15vw;
+    padding-top: 1vh;
+    padding-left: 27%;
     background-color: var(--Background-gradient);  
   }
   #afrotadaShopText {

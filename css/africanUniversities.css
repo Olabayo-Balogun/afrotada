@@ -113,8 +113,8 @@ header img{
 nav {
   font-size: 1.5vw;
   display: flex;
-  margin-top: 2%;  
-  padding-left: 17.5%;
+  margin-top: 2%;   
+  padding-left: 27%;
   background-color: var(--Background-gradient);  
 }
 
@@ -165,12 +165,17 @@ section {
   padding-top: 0.3%; 
 }
 
+#universitiesImage{
+  background-color: var(--Background-gradient);
+  width: 8%;
+  margin-left: 3%;
+}
+
 form{
   display: flex;
-  margin-left: 27%;
+  margin-left: 28%;
   background-color: var(--Background-gradient);
-  padding-bottom: 1vh;
-  
+  padding-bottom: 1vh;  
 }
 
 input {
@@ -187,13 +192,11 @@ input {
 
 img#searchIcon {
   width: 12%;
-  padding: 0.5vw;
+  padding: 2%;
   color: white;
   background-color: var(--Orange);
   height: 100%;
   margin-right: 5%;
-  border-bottom-right-radius: 10%;
-  border-top-right-radius: 10%;
 }
 
 button {
@@ -289,17 +292,17 @@ img#socialMediaIcon3 {
 /**********************************END OF FOOTER STYLES********************************************/
 @media screen and (max-width: 1024px){
   header img{
-    padding-top: 1.5vh;
-    padding-left: 0%;
-    background-color: var(--Background-gradient);  
+    padding-top: 1.5%;
+    padding-left: 0;
+    background-color:  #DCE8B9;  
   }
   
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 17%;
-    background-color: var(--Background-gradient);  
+    padding-top: 1%;
+    padding-left: 27%;
+    background-color:  #DCE8B9;  
   }
   #africanCultureText {
     padding-top: 0.5vh;
@@ -328,17 +331,17 @@ img#socialMediaIcon3 {
 }
 @media screen and (max-width: 768px){
   header img{
-    padding-top: 1.5vh;
-    padding-left: 0%;
-    background-color: var(--Background-gradient);  
+    padding-top: 1.5%;
+    padding-left: 0;
+    background-color:  #DCE8B9;  
   }
   
   nav {
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 17%;
-    background-color: var(--Background-gradient);  
+    padding-top: 1%;
+    padding-left: 27%;
+    background-color:  #DCE8B9;  
   }
   #africanCultureText {
     padding-top: 0.5vh;
@@ -367,20 +370,19 @@ img#socialMediaIcon3 {
 }
 
 @media screen and (max-width: 480px){
-  header img{
-    padding-top: 1.5vh;
-    padding-left: 0%;
-    background-color: var(--Background-gradient);  
+  img.afrotadaLogo {
+    width: 15%;
+    margin-left: 2%;
   }
   
   nav {
+    margin-left:7%;
     font-size: 1.5vw;
     display: flex;
-    padding-top: 2.2vh;
-    padding-left: 17%;
-    background-color: var(--Background-gradient);  
+    padding-top: 1%;
+    padding-left: 21%;
+    background-color:  #DCE8B9;
   }
-
   #africanCultureText {
     padding-top: 0.5vh;
   }

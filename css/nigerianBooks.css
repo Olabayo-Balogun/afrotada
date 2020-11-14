@@ -165,12 +165,17 @@ section {
   padding-top: 0.3%; 
 }
 
+#booksImage{
+  background-color: var(--Background-gradient);
+  width: 8%;
+  margin-left: 3%;
+}
+
 form{
   display: flex;
-  margin-left: 27%;
+  margin-left: 20%;
   background-color: var(--Background-gradient);
-  padding-bottom: 1vh;
-  
+  padding-bottom: 1vh;  
 }
 
 input {
@@ -187,13 +192,11 @@ input {
 
 img#searchIcon {
   width: 12%;
-  padding: 0.5vw;
+  padding: 2%;
   color: white;
   background-color: var(--Orange);
   height: 100%;
   margin-right: 5%;
-  border-bottom-right-radius: 10%;
-  border-top-right-radius: 10%;
 }
 
 button {

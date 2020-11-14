@@ -113,7 +113,7 @@ nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;  
-  padding-left: 18%;
+  padding-left: 27%;
   background-color: var(--Background-gradient);  
 }
 
@@ -180,7 +180,7 @@ section {
 
 form{
   display: flex;
-  margin-left: 27.5%;
+  margin-left: 28%;
   background-color: var(--Background-gradient);
   padding-bottom: 1%;  
 }
@@ -199,13 +199,11 @@ input {
 
 img#searchIcon {
   width: 12%;
-  padding: 0.5%;
+  padding: 2%;
   color: white;
   background-color: var(--Orange);
   height: 100%;
   margin-right: 5%;
-  border-bottom-right-radius: 10%;
-  border-top-right-radius: 10%;
 }
 
 button {
@@ -482,7 +480,7 @@ img#socialMediaIcon3 {
     font-size: 1.5vw;
     display: flex;
     padding-top: 1%;
-    padding-left: 17.5%;
+    padding-left: 27%;
     background-color: var(--Background-gradient);  
   }
   #resourcesText {
@@ -526,7 +524,7 @@ img#socialMediaIcon3 {
     font-size: 1.5vw;
     display: flex;
     padding-top: 1%;
-    padding-left: 17.5%;
+    padding-left: 27%;
     background-color: var(--Background-gradient);  
   }
   #resourcesText {
