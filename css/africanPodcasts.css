@@ -211,17 +211,109 @@ button {
 /**********************************BODY STYLES********************************************/
 /**********************************BODY STYLES********************************************/
 /**********************************BODY STYLES********************************************/
+
 body {
   background-repeat: no-repeat;
   background-color: var(--Background-colour);
 }
 
-main img {
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 2%;
+main {
+  background-color: var(--Background-colour);
 }
 
+.podcast {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.podcast img {
+  width: 80%;
+  background-color: var(--Background-colour);
+}
+
+h3{
+  font-size: 2vw;
+}
+
+p{
+  font-size: 1.5625vw;
+  padding-top: 5%;
+  text-align: justify;
+}
+
+#link{
+  font-size: 1vw;
+  display: inline-block;
+  margin-top: 2%;
+  display: flex;
+  font-weight: bold;
+}
+
+#link img{
+  width: 3%;
+  margin-right: 1%;
+}
+
+#pageNumber {
+  display: flex;
+  background-color: var(--Background-colour);
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#firstPage{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#previousPage{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageOne{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageTwo{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageThree{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageFour{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageFive{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#pageSix{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#nextPage{
+  padding-right: 10%;
+  width: 80%;
+}
+
+#lastPage{
+  padding-right: 10%;
+  width: 80%;
+}
 
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
@@ -406,5 +498,9 @@ img#socialMediaIcon3 {
     background-color: var(--Orange);
     height: 100%;
     margin-right: 5%;
+  }
+
+  a#link button{
+    font-size: 2.5vw;
   }
 }
