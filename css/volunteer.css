@@ -179,6 +179,7 @@ input {
   height: 100%;
   border: none;
   outline: none;
+  border-radius: none;
 }
 
 img#searchIcon {
@@ -304,12 +305,12 @@ textarea{
 }
 
 #submit{
-  width: 10%;
+  width: 15%;
   color: var(--White);
   padding: 2%;
   font-size: 1.5vw;
   background-color: var(--Orange);
-  border-radius: 25%;
+  border-radius: 40px;
   display: inline-block;
   outline: none;
 }
@@ -350,6 +351,12 @@ img#socialMediaIcon2 {
 
 img#socialMediaIcon3 {
   width: 3vw;
+  margin-right: 1vw;
+}
+
+img#socialMediaIcon4{
+  width: 3vw;
+  
 }
 
 #policy {
@@ -504,6 +511,7 @@ li #cookiePolicyText{
     height: 1vh;
     border: none;
     outline: none;
+    border-radius: none;
   }
 
   img#searchIcon {

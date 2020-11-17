@@ -183,6 +183,7 @@ input {
   height: 100%;
   border: none;
   outline: none;
+  border-radius: none;
 }
 
 img#searchIcon {
@@ -484,6 +485,12 @@ img#socialMediaIcon2 {
 
 img#socialMediaIcon3 {
   width: 3vw;
+  margin-right: 1vw;
+}
+
+img#socialMediaIcon4{
+  width: 3vw;
+  
 }
 
 #policy {
@@ -629,6 +636,7 @@ img#socialMediaIcon3 {
     height: 1vh;
     border: none;
     outline: none;
+    border-radius: none;
   }
 
   img#searchIcon {
