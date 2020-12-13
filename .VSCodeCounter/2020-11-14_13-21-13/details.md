@@ -461,11 +461,11 @@ Total : 996 files,  101463 codes, 7903 comments, 10293 blanks, all 119659 lines
 | [img/Chad flag.svg](/img/Chad flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Coming soon normal.svg](/img/Coming soon normal.svg) | XML | 81 | 0 | 7 | 88 |
 | [img/Coming soon svg.svg](/img/Coming soon svg.svg) | XML | 58 | 0 | 1 | 59 |
-| [img/Comoros flag.svg](/img/Comoros flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Comorianflag.svg](/img/Comorianflag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Côté D'Ivoire flag.svg](/img/Côté D'Ivoire flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Democratic Republic of the Congo flag.svg](/img/Democratic Republic of the Congo flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Djibouti flag.svg](/img/Djibouti flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Egypt flag.svg](/img/Egypt flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Djiboutian flag.svg](/img/Djiboutian flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Egyptian flag.svg](/img/Egyptian flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Ellipse 34.svg](/img/Ellipse 34.svg) | XML | 3 | 0 | 1 | 4 |
 | [img/Equatorial Guinea.svg](/img/Equatorial Guinea.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Eritrea.svg](/img/Eritrea.svg) | XML | 8 | 0 | 1 | 9 |
@@ -473,7 +473,7 @@ Total : 996 files,  101463 codes, 7903 comments, 10293 blanks, all 119659 lines
 | [img/First page hover.svg](/img/First page hover.svg) | XML | 7 | 0 | 1 | 8 |
 | [img/First page.svg](/img/First page.svg) | XML | 9 | 0 | 1 | 10 |
 | [img/Gabon flag.svg](/img/Gabon flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Gambia flag.svg](/img/Gambia flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Gambian flag.svg](/img/Gambian flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Ghana.svg](/img/Ghana.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Guinea flag.svg](/img/Guinea flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Guinea-bissau flag.svg](/img/Guinea-bissau flag.svg) | XML | 8 | 0 | 1 | 9 |
@@ -483,40 +483,40 @@ Total : 996 files,  101463 codes, 7903 comments, 10293 blanks, all 119659 lines
 | [img/Icon material-switch (1).svg](/img/Icon material-switch (1).svg) | XML | 3 | 0 | 1 | 4 |
 | [img/Icon material-switch.svg](/img/Icon material-switch.svg) | XML | 3 | 0 | 1 | 4 |
 | [img/Icon simple-instagram.svg](/img/Icon simple-instagram.svg) | XML | 3 | 0 | 1 | 4 |
-| [img/Kenya flag.svg](/img/Kenya flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Kenyan flag.svg](/img/Kenyan flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Last page hover.svg](/img/Last page hover.svg) | XML | 7 | 0 | 1 | 8 |
 | [img/Last page.svg](/img/Last page.svg) | XML | 7 | 0 | 1 | 8 |
 | [img/Lesotho.svg](/img/Lesotho.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Liberia flag.svg](/img/Liberia flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Liberian flag.svg](/img/Liberian flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Line 32.svg](/img/Line 32.svg) | XML | 3 | 0 | 1 | 4 |
 | [img/Line 34.svg](/img/Line 34.svg) | XML | 3 | 0 | 1 | 4 |
-| [img/Madagascar flag.svg](/img/Madagascar flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Madagasyflag.svg](/img/Madagasyflag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Mali.svg](/img/Mali.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Mauritania flag.svg](/img/Mauritania flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Mauritius flag.svg](/img/Mauritius flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Morocco flag.svg](/img/Morocco flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Mauritian flag.svg](/img/Mauritian flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Moroccan flag.svg](/img/Moroccan flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Mozambique.svg](/img/Mozambique.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Namibia flag.svg](/img/Namibia flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Namibian flag.svg](/img/Namibian flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Next page hover.svg](/img/Next page hover.svg) | XML | 4 | 0 | 1 | 5 |
 | [img/Next page.svg](/img/Next page.svg) | XML | 4 | 0 | 1 | 5 |
 | [img/Nigeria flag.svg](/img/Nigeria flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Page-1.svg](/img/Page-1.svg) | XML | 29 | 0 | 1 | 30 |
 | [img/Previous page hover.svg](/img/Previous page hover.svg) | XML | 4 | 0 | 1 | 5 |
 | [img/Previous page.svg](/img/Previous page.svg) | XML | 6 | 0 | 1 | 7 |
-| [img/Rwanda flag.svg](/img/Rwanda flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Rwandan flag.svg](/img/Rwandan flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Search icon.svg](/img/Search icon.svg) | XML | 7 | 0 | 1 | 8 |
-| [img/Seychelles flag.svg](/img/Seychelles flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Sierra Leone flag.svg](/img/Sierra Leone flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Seychellois flag.svg](/img/Seychellois flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Sierra Leonean flag.svg](/img/Sierra Leonean flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Somalia.svg](/img/Somalia.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/South Africa flag.svg](/img/South Africa flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/South Sudan flag.svg](/img/South Sudan flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/South Sudanese flag.svg](/img/South Sudanese flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Sub.svg](/img/Sub.svg) | XML | 7 | 0 | 1 | 8 |
-| [img/Sudan flag.svg](/img/Sudan flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Sudanese flag.svg](/img/Sudanese flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Sénégal flag.svg](/img/Sénégal flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Tanzania flag.svg](/img/Tanzania flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Tanzanian flag.svg](/img/Tanzanian flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Togo flag.svg](/img/Togo flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Tunisia flag.svg](/img/Tunisia flag.svg) | XML | 8 | 0 | 1 | 9 |
-| [img/Uganda flag.svg](/img/Uganda flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Tunisian flag.svg](/img/Tunisian flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Ugandan flag.svg](/img/Ugandan flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Zambia.svg](/img/Zambia.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/Zimbabwe.svg](/img/Zimbabwe.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/africanBooks.svg](/img/africanBooks.svg) | XML | 1 | 0 | 0 | 1 |
@@ -572,7 +572,7 @@ Total : 996 files,  101463 codes, 7903 comments, 10293 blanks, all 119659 lines
 | [img/lybia flag.svg](/img/lybia flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/lybiaFlag.svg](/img/lybiaFlag.svg) | XML | 13 | 0 | 1 | 14 |
 | [img/madagascarFlag.svg](/img/madagascarFlag.svg) | XML | 13 | 0 | 1 | 14 |
-| [img/malawi flag.svg](/img/malawi flag.svg) | XML | 8 | 0 | 1 | 9 |
+| [img/Malawian flag.svg](/img/Malawian flag.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/malawiFlag.svg](/img/malawiFlag.svg) | XML | 13 | 0 | 1 | 14 |
 | [img/male.svg](/img/male.svg) | XML | 8 | 0 | 1 | 9 |
 | [img/maliFlag.svg](/img/maliFlag.svg) | XML | 13 | 0 | 1 | 14 |

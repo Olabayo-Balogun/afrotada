@@ -217,12 +217,32 @@ body {
   background-color: var(--Background-colour);
 }
 
-main img {
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 2%;
+
+main {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
 }
 
+#listAndBackgroundImageContainer{
+    display: flex;
+}
+
+#backgroundImageContainer img{
+    width: 60%;
+    margin-top: 15%;
+    opacity: 0.2;
+}
+
+h2{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 2%;
+}
 
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/

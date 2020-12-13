@@ -217,10 +217,30 @@ body {
   background-color: var(--Background-colour);
 }
 
-main img {
-  width: 50%;
-  margin-left: 25%;
+main {
+  width: 80%;
+  margin: auto;
   margin-top: 2%;
+}
+
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3vw;
+  margin-bottom: 5%;
+}
+
+.col-3{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.col-3 img {
+  width: 10vw;
 }
 
 

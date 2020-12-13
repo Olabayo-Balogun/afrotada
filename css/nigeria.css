@@ -210,6 +210,8 @@ img#searchIcon {
 button {
   display: contents;
 }
+
+
 /**********************************END OF HEADER STYLES********************************************/
 /**********************************END OF HEADER STYLES********************************************/
 /**********************************END OF HEADER STYLES********************************************/
@@ -221,14 +223,51 @@ body {
   background-repeat: no-repeat;
   background-color: var(--Background-colour);
 }
+
 main {
   padding-left: 5vw;
   padding-right: 5vw;
   background-color: var(--Background-colour);
+  margin-bottom: 5%;
 }
 
 main img {
   background-color: var(--Background-colour);
+}
+
+#secondSection{
+  background-color: var(--Background-colour);
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+#secondSection p{
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 10%;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+#secondSection span{
+  color: var(--Hover-orange);
+  padding-right: 30%;
+  font-weight: bold;
+  font-size: 1.8vw;
+}
+
+#regionText{
+  margin-right: 5%;
+}
+
+#capitalText{
+  margin-right: 5%;
+}
+
+#secondSection img{
+  width: 50%;
+  margin-left: 30%;
 }
 
 .africanAttractions {
@@ -238,7 +277,7 @@ main img {
   text-align: center;
   margin: auto;
   margin-top: 1%;
-  padding-top: 7%;
+  padding-top: 2%;
   transition: transform .2s;
 }
 

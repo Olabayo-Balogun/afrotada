@@ -217,13 +217,25 @@ body {
   background-color: var(--Background-colour);
 }
 
-main img {
-  width: 50%;
-  margin-left: 25%;
+main {
+  width: 80%;
+  margin: auto;
   margin-top: 2%;
 }
 
+#publicFiguresContainer{
+  display: flex;
+}
 
+#publicFigure{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+
+#publicFigure p{
+  margin-left: 5%;
+}
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
