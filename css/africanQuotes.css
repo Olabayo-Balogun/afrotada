@@ -225,16 +225,33 @@ main {
 
 #publicFiguresContainer{
   display: flex;
+  flex-wrap: wrap;
 }
 
-#publicFigure{
+.publicFigure{
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 5%;
 }
 
-#publicFigure p{
-  margin-left: 5%;
+.publicFigure a:first-child{
+  margin-top: 5%;
+}
+
+
+.publicFigure p{
+  text-align: center center;
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin-top: 100%;
+  margin-left: -15%;
+}
+
+#ellenNameText{
+  margin-top: -12%;
+}
+
+.publicFigure img{
+  width: 80%;
 }
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
