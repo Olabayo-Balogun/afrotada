@@ -9,19 +9,37 @@
 </head>
 <body>
     <header id="home" >
-      <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
-      <nav class="col-10">
-        <li><a class="home" href="/index.html">Home</a></li> 
-        <li><a id="resources" href="/resources.html">Resources</a></li>
-        <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
-        <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
-        <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
-        <li>
-        <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
-        </li>
-        <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
-        <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
-      </nav>     
+        <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
+        <nav class="col-9">
+          <li><a class="home" href="/index.html">Home</a></li> 
+          <li id="resources" ><a href="#">Resources</a>
+            <ul id="dropDown">
+              <li id="resourcesByCategory">
+                <a href="/resources.html">by category</a>
+              </li>
+              
+              <li id="resourcesByCountry">
+                <a href="/resourcesByCountry.html">by country</a>
+              </li>
+
+              <li id="resourcesByMap">
+                <a href="/resourcesByMap.html">by map</a>
+              </li>
+            </ul>
+          </li>
+          <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
+          <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
+          <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
+          <li>
+          <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
+          </li>
+          <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
+          <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
+        </nav> 
+        <button id="hamburger">
+          <img src="/img/Hamburger menu.svg" alt="Hamburger menu icon">
+        </button>    
+        
     </header>
     <section id="underNav">
         <div id="africanBooksText" class="col-4">AFRICAN BOOKS <img id="booksImage" src="/img/africanBooks.svg" alt="books image"></div>
@@ -32,10 +50,10 @@
         </section>
     <main>
         <section id ="bookSnippet">
-            <div id="bookSnippetText">
+            <div id="bookSnippetText" class="col-8">
                 <h3><q>The Girl with the louding voice</q></h3>
                 <p>by Abi Dare</p>
-                <img src="/img/line.svg" alt="">
+                <img id="lineImage" src="/img/line.svg" alt="line image">
                 <ul>
                     <li>24 September 2020</li>
                     <li>Nifemi Akerele</li>
@@ -44,10 +62,10 @@
                 <p>
                     <q>
                         Women and girls should be able to determine their own future, no matter where they're born.
-                    </q>-Melinda Gates
+                    </q> - Melinda Gates
                 </p>
             </div>
-            <div id="bookSnippetImage">
+            <div id="bookSnippetImage" class="col-4">
                 <img src="/img/TGWTLV.jpg" alt="The girl with the louding voice image">
             </div>
         </section>
@@ -75,7 +93,7 @@
     <section id="otherInformation">
         <div id="bookSummaryTag">
             <h3>TAGS</h3>
-            <P><span>Bildungsroman</span> <span>Literary fiction</span> <span>Cultural Heritage</span> <span>Women</span></P>
+            <P><span >Bildungsroman</span> <span>Literary fiction</span> <span >Cultural Heritage</span> <span>Women</span></P>
         </div>
 
         <div id="referencesSection">
@@ -87,16 +105,24 @@
 
         <div id="aboutContributor">
             <h3>ABOUT CONTRIBUTOR</h3>
-            <div id="contributorImage" class="col-4">
-                <img src="/img/nifemi.svg" alt="Nifemi Akerele's image">
+            <div id="aboutContributorDetails">
+                <div id="contributorImage" class="col-4">
+                    <a href="hhtps://www.linkedin.com/in/nifemi-akerele-aa81bb111">
+                        <img src="/img/nifemi.svg" alt="Nifemi Akerele's image">
+                    </a> 
+                </div>
+                <div id="contributorBio" class="col-8">
+                    <h3>Nifemi Akerele</h3>
+                    <p>
+                        Nifemi Brown identifies as a feminist, social entrepreneur, lover of art and humanity. She is the project lead of Nifemi Brown Foundation, a non-profit organization committed to sustainable development goals 4 (Quality education) and 2 (Zero Hunger). Nifemi is an avid reader of african fiction, history and autobiography.
+                        <a href="hhtps://www.linkedin.com/in/nifemi-akerele-aa81bb111">
+                            <img src="/img/linkedInLogo.svg" alt="Linkedin image">
+                        </a>
+                        
+                    </p>
+                </div>
             </div>
-            <div id="contributorBio" class="col-8">
-                <h4>Nifemi Akerele</h4>
-                <p>
-                    Nifemi Brown identifies as a feminist, social entrepreneur, lover of art and humanity. She is the project lead of Nifemi Brown Foundation, a non-profit organization committed to sustainable development goals 4 (Quality education) and 2 (Zero Hunger). Nifemi is an avid reader of african fiction, history and autobiography.
-                    <img src="/img/linkedIn.svg" alt="Linkedin image">
-                </p>
-            </div>
+            
         </div>
     </section>
     <!------------------------------------------FOOTER HTML-------------------------------------------->
@@ -147,5 +173,6 @@
     <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
     <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
     <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <script src="/main.js"></script>
 </body>
 </html>

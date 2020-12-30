@@ -1,4 +1,8 @@
-root 
+
+@import url("https://fonts.google.com/specimen/Poppins?query=Popp");
+@import url("https://fonts.google.com/specimen/Hind+Siliguri?query=Hin");
+
+:root 
 {--Background-colour: #E8F1CD;
 --Background-gradient: #DCE8B9;
 --Orange: #F15B12;
@@ -28,12 +32,12 @@ root
 a {
   text-decoration-line: none;
   color: var(--Active-black);
-  cursor: pointer;
 }
 
 
 a:hover {
   color:  #CD5014;
+  cursor: pointer;
 }
 
 
@@ -143,7 +147,7 @@ nav li {
 }
 
 #joinOurTeam{
-  color: #84A528;
+  color: var(--Lemon);
 }
 
 #hamburger{
@@ -190,6 +194,7 @@ body {
   background-repeat: no-repeat;
   background-color: var(--Background-colour);
 }
+
 main {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -703,16 +708,17 @@ img#socialMediaIcon4{
 
 @media screen and (max-width: 480px){
   img.afrotadaLogo {
-    width: 15%;
+    width: 25%;
     margin-left: 2%;
   }
   
   nav {
     margin-left:7%;
     font-size: 1.5vw;
-    display: block;
+    display: none;
     margin-top: 12%;
-    margin-left: 13%;
+    margin-left: 20%;
+    z-index: 2;
   }
   
   nav li{
@@ -720,20 +726,17 @@ img#socialMediaIcon4{
     text-align: right;
   }
 
-  #resources:clicked{
+    #resources:active{
     width: 100%;
     display: block;
-    color: var(--Hover-orange);
   }
 
-  #resources #dropDown{
+  #dropDown{
     display: block;
-    width: 100%;
   }
 
   #resourcesByCategory{
     font-size: 3.5vw;
-
   }
   
   #resourcesByCountry{
@@ -749,7 +752,8 @@ img#socialMediaIcon4{
     display: unset;
     position: absolute;
     top: 2.5%;
-    right: 3%;  
+    right: 5%;  
+    outline: none;
   }
 
 
@@ -764,9 +768,9 @@ img#socialMediaIcon4{
 
   input {
     padding-left: 1vw;
-    padding-top: 4.2%;
-    padding-bottom: 4.2%;
-    font-size: 1.5vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.2vw;
     background-color: white;
     width: 30vw;
     height: 100%;
@@ -783,10 +787,13 @@ img#socialMediaIcon4{
     margin-right: 5%;
   }
 
-
   form.search {
     margin-left: 30%;
     margin-top: 5%;
+  }
+
+  main h1{
+    margin-top: 15%;
   }
 
   .afrotadaVision{
@@ -900,6 +907,50 @@ img#socialMediaIcon4{
   .africanHistoricalSites p{
     margin-top: 3%;
     font-size: 3vw;
+  }
+  
+  #followUsText{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+
+  img#socialMediaIcon1 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon2 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon3 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon4 {
+    width: 4vw;
+  }
+
+  #policy{
+    margin-left: 0%;
+    padding-left: 25%;
+  }
+
+  #policy li {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+  }
+
+  #backToTop{
+    font-size: 2vw;
+    padding-left: 0%;
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #backToTop img{
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 7%;
   }
 
   .latestContributionText{

@@ -8,41 +8,55 @@
     <link rel="stylesheet" href="/css/aboutUs.css">
 </head>
 <body>
-    <header id="home" >
-      <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
-      <nav class="col-10">
-        <li><a class="home" href="/index.html">Home</a></li> 
-        <li><a id="resources" href="/resources.html">Resources</a></li>
-        <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
-        <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
-        <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
-        <li>
-        <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a> 
-        </li>
-        <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
-        <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
-      </nav>       
-    </header>
+  <header id="home" >
+    <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
+    <nav class="col-9">
+      <li><a class="home" href="/index.html">Home</a></li> 
+      <li id="resources" ><a href="#">Resources</a>
+        <ul id="dropDown">
+          <li id="resourcesByCategory">
+            <a href="/resources.html">by category</a>
+          </li>
+          
+          <li id="resourcesByCountry">
+            <a href="/resourcesByCountry.html">by country</a>
+          </li>
+        </ul>
+      </li>
+      <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
+      <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
+      <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
+      <li>
+      <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
+      </li>
+      <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
+      <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
+    </nav> 
+    <button id="hamburger">
+      <img src="/img/Hamburger menu.svg" alt="Hamburger menu icon">
+    </button>    
+    
+</header>
     <section id="underNav">
-        <div id="afrotadaShopText" class="col-7">ABOUT US</div>
+        <div id="aboutUsText" class="col-7">ABOUT US</div>
         <form class="search col-4" action="#">
           <input type="search" placeholder= "What are you looking for" name="search">
           <button type="submit"><img id="searchIcon" src="/img/Search icon.svg" alt="search button" /></button>
         </form>
     </section>
     <section id="intro">
-        <div class="col-8" id="aboutUsText">
+        <div class="col-8" id="aboutUsContent">
           <h1>AfroTada</h1>
           <p>
             On June 20, 2020, Zainab Olaitan and Simotwo Zainabu birthed AfroTada, at the beginning all they had was a beautiful idea and their joint capabilities.
           </p>
         </div>
-        <div class="col-4" id="aboutUsImg">
-          <img src="/img/AfroTada with shadow.svg" alt="">
+        <div class="col-4" >
+          <img id="aboutUsContentImage" src="/img/AfroTada with shadow.svg" alt="">
         </div>
     </section>
       <main>
-        <div class="purpose">
+        <div id="purpose">
           <ul>
             <li><img src="/img/AfroTada with shadow.svg" alt="">AfroTada is an initiative that aims to curate and preserve African content. We recognize that the proper curation and preservation of African content (books, people, traditions, languages, universities, historical Sites etc.) will stimulate the awakening of the African consciousness and bring us closer to the knowledge of our origin as a continent.</li>
             <li><img src="/img/AfroTada with shadow.svg" alt="">AfroTada was created due to the need for a platform by Africans where authentic stories and information about Africa are shared. We are here to collate and provide you with those facts, figures and stories about Africa that you want to know but have not found a source for.</li>
@@ -50,15 +64,15 @@
           </ul>
         </div>
       </main>
-      <section class="visionAndMission">
-        <div class="vision col-5">
+      <section id="visionAndMission">
+        <div id="vision" class="col-5">
           <h3>Our Vision</h3>
-          <p>To be the fountain of African knowledge</p>
+          <p>To be the fountain of African knowledge.</p>
         </div>
-        <div class="mission col-5">
+        <div id="mission" class="col-5">
           <h3>Our Mission</h3>
           <p>
-            To ensure the proper curation and preservation of African content
+            To ensure the proper curation and preservation of African content.
           </p>
         </div>
       </section>
@@ -68,21 +82,21 @@
         </h3>
         <ul>
           <li>
-            <img src="/img/AfroTada with shadow.svg" alt=""> To preserve African content
+            <img src="/img/AfroTada with shadow.svg" alt=""> To preserve African content.
           </li>
           <li>
-            <img src="/img/AfroTada with shadow.svg" alt=""> To curate content that tells the African story
+            <img src="/img/AfroTada with shadow.svg" alt=""> To curate content that tells the African story.
           </li>
           <li>
-            <img src="/img/AfroTada with shadow.svg" alt=""> To be a one stop place for African content
+            <img src="/img/AfroTada with shadow.svg" alt=""> To be a one stop place for African content.
           </li>
           <li>
-            <img src="/img/AfroTada with shadow.svg" alt=""> To awaken the consciousness of Africans through knowledge of their origin
+            <img src="/img/AfroTada with shadow.svg" alt=""> To awaken the consciousness of Africans through knowledge of their origin.
           </li>
         </ul>
         
       </section>
-      <section class="logoInterpretation">
+      <section id="logoInterpretation">
         <h3>Our Logo and Colours</h3>
         <p>The African silhouette represents our demographic focus; for Africans by Africans</p>
         <p><span class="orangeText">Orange</span> symbolizes the diversity and beauty of African Culture</p> 
@@ -241,9 +255,9 @@
             alt="vertically pointed arrow"/></a>
         </div>
       </footer>
-    
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <script src="/main.js"></script>
 </body>
 </html>

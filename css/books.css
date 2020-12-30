@@ -100,21 +100,23 @@ header {
   display: flex;
   background-color: var(--Background-gradient);  
   padding-bottom: 1vw;
-  margin-right: -2vw;
   width: 100%;
 }
 
 header img{
-  margin-top: 1%;
+  display: flex;  
+  margin-top: 2%;
   margin-left: 2%;
+  width: 100%;
   background-color: var(--Background-gradient);  
+  height: 40%;
 }
 
 nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  padding-left: 27%;
+  margin-left: 25%;
   background-color: var(--Background-gradient);  
 }
 
@@ -145,12 +147,46 @@ nav li {
   background-color: var(--Background-gradient);  
 } 
 
+#resources a{
+background-color: var(--Background-gradient);
+}
+
+#resources:hover{
+  width: 13%;
+  background-color: var(--Background-gradient); 
+}
+
+#resources:hover #dropDown{
+  display: block;
+  z-index: 2;
+}
+
+#dropDown {
+  display: none;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCategory{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCountry{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+
 #joinOurTeam{
   color: var(--Lemon);
   background-color: var(--Background-gradient);
 }
 
-section {
+#hamburger{
+  display: none;
+}
+
+section#underNav {
   display: flex;  
   background-color: var(--Background-gradient);
   padding-bottom: 1%;
@@ -225,13 +261,14 @@ main {
 }
 
 #bookSnippet{
-    display: flex;
-    background-color: var(--Background-colour);
+  display: flex;
+  background-color: var(--Background-colour);
+  width: 100%;
 }
 
 #bookSnippet ul{
-    margin-bottom: 2%;
-    display: flex;
+  margin-bottom: 2%;
+  display: flex;
 }
 
 #bookSnippet ul:first-child{
@@ -239,7 +276,18 @@ main {
 }
 
 #bookSnippetImage img{
-    width: 80%;
+  width: 80%;
+  margin-left: 20%;
+}
+
+#bookSnippetText ul li{
+  margin-right: 5%;
+  margin-left: 2%;
+  font-size: 1.5vw;
+}
+
+#lineImage{
+  width: 80%;
 }
 
 #bookSnippetText img{
@@ -259,21 +307,39 @@ h3{
 }
 
 #otherInformation{
-    background-color: var(--Background-colour);
-    display: block;
-    width: 80%;
-    margin: auto;
-    margin-top: 5%;
+  background-color: var(--Background-colour);
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: block;
 }
 
-bookSummaryTag
+#bookSummaryTag{
+  display: block;
+  margin-bottom: 3%;
+}
 
 #bookSummaryTag span{
-    background-color: var(--Background-gradient);
+  background-color: var(--Background-gradient);
+  margin-right: 1%;
+  padding: 1%;
 }
 
 #aboutContributor{
-    display: flex;
+  margin-top: 3%;
+}
+
+#aboutContributorDetails{
+  display: flex;
+  margin-top: 3%;
+}
+
+#contributorBio p{
+  padding-top: 0;
+}
+
+#contributorBio p img{
+  margin-left: 1%;
 }
 
 /**********************************END OF BODY STYLES********************************************/
@@ -437,20 +503,61 @@ img#socialMediaIcon4{
   }
 }
 
+
 @media screen and (max-width: 480px){
-  header img{
-    padding-top: 1.5vh;
-    padding-left: 0vw;
-    background-color: var(--Background-gradient);  
+  img.afrotadaLogo {
+    width: 25%;
+    margin-left: 2%;
   }
   
   nav {
+    margin-left:7%;
     font-size: 1.5vw;
-    display: flex;
-    padding-top: 1vh;
-    padding-left: 27%;
-    background-color: var(--Background-gradient);  
+    display: none;
+    margin-top: 12%;
+    margin-right: 5%;
+    z-index: 2;
   }
+  
+  nav li{
+    font-size: 3.5vw;
+    text-align: right;
+  }
+
+  #resources:active{
+    width: 100%;
+    display: block;
+  }
+
+  #dropDown{
+    display: block;
+  }
+
+  #resourcesByCategory{
+    font-size: 3.5vw;
+  }
+  
+  #resourcesByCountry{
+    font-size: 3.5vw;
+
+  }
+
+  #joinOurTeam{
+    margin-right: 0;
+  }
+
+  #hamburger{
+    display: unset;
+    position: absolute;
+    top: 2.5%;
+    right: 5%;  
+    outline: none;
+  }
+
+  #underNav{
+    padding-top: 3%;
+  }
+
   #afrotadaShopText {
     padding-top: 0.5vh;
   }
@@ -477,14 +584,86 @@ img#socialMediaIcon4{
     margin-right: 5%;
   }
 
+  #africanBooksText{
+    font-size: 3vw;
+  }
+
+  h3{
+    font-size:3.5vw;
+  }
+
   p{
-    font-size: 1.7vw;
+    font-size: 3.5vw;
+  }
+
+  #bookSnippetText ul li{
+    font-size: 2.5vw;
+  }
+
+  li{
+    font-size: 2.5vw;
   }
 
   button {
     display: contents;
     color: var(--White);
     font-size: 1.2vw;
+  }
+  
+  #bookSummaryTag span{
+    font-size: 3.0vw;
+  }
 
+  #contributorImage img{
+    width: 80%;
+  }
+
+  #contributorBio img{
+    width: 40%;
+    padding-top: 1%;
+  }
+
+  #followUsText{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+
+  img#socialMediaIcon1 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon2 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon3 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon4 {
+    width: 4vw;
+  }
+
+  #policy{
+    margin-left: 0%;
+    padding-left: 25%;
+  }
+
+  #policy li {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+  }
+
+  #backToTop{
+    font-size: 2vw;
+    padding-left: 0%;
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #backToTop img{
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 7%;
   }
 }

@@ -9,19 +9,37 @@
 </head>
 <body>
     <header id="home" >
-      <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
-      <nav class="col-10">
-        <li><a class="home" href="/index.html">Home</a></li> 
-        <li><a id="resources" href="/resources.html">Resources</a></li>
-        <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
-        <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
-        <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
-        <li>
-        <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
-        </li>
-        <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
-        <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
-      </nav>     
+        <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
+        <nav class="col-9">
+          <li><a class="home" href="/index.html">Home</a></li> 
+          <li id="resources" ><a href="#">Resources</a>
+            <ul id="dropDown">
+              <li id="resourcesByCategory">
+                <a href="/resources.html">by category</a>
+              </li>
+              
+              <li id="resourcesByCountry">
+                <a href="/resourcesByCountry.html">by country</a>
+              </li>
+
+              <li id="resourcesByMap">
+                <a href="/resourcesByMap.html">by map</a>
+              </li>
+            </ul>
+          </li>
+          <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
+          <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
+          <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
+          <li>
+          <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
+          </li>
+          <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
+          <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
+        </nav> 
+        <button id="hamburger">
+          <img src="/img/Hamburger menu.svg" alt="Hamburger menu icon">
+        </button>    
+        
     </header>
     <section id="underNav">
       <div id="afrotadaShopText" class="col-7">BOTSWANA DOCUMENTARIES <img id="documentariesImage" src="/img/africanDocumentaries.svg" alt="documentaries image"></div>
@@ -77,9 +95,9 @@
             alt="vertically pointed arrow"/></a>
       </div>
       </footer>
-    
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <script src="/main.js"></script>
 </body>
 </html>

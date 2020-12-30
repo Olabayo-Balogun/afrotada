@@ -9,19 +9,37 @@
 </head>
 <body>
     <header id="home" >
-      <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
-      <nav class="col-10">
-        <li><a class="home" href="/index.html">Home</a></li> 
-        <li><a id="resources" href="/resources.html">Resources</a></li>
-        <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
-        <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
-        <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
-        <li>
-        <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
-        </li>
-        <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
-        <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
-      </nav>     
+        <img class="afrotadaLogo col-2" src="/img/afrotadaLogo.svg" alt="AfroTada Logo" />
+        <nav class="col-9">
+          <li><a class="home" href="/index.html">Home</a></li> 
+          <li id="resources" ><a href="#">Resources</a>
+            <ul id="dropDown">
+              <li id="resourcesByCategory">
+                <a href="/resources.html">by category</a>
+              </li>
+              
+              <li id="resourcesByCountry">
+                <a href="/resourcesByCountry.html">by country</a>
+              </li>
+
+              <li id="resourcesByMap">
+                <a href="/resourcesByMap.html">by map</a>
+              </li>
+            </ul>
+          </li>
+          <li><a id="aboutUs" href="/aboutUs.html">About Us</a></li>
+          <li><a id="afrotadaShop" href="/afrotadaShop.html">AfroTada Shop</a> </li>
+          <li><a id="contactUs" href="/contactUs.html" >Contact Us</a></li>
+          <li>
+          <a id="joinOurTeam" href="/volunteer.html">Join Our Team</a>
+          </li>
+          <!-- WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) -->
+          <!-- UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)-->
+        </nav> 
+        <button id="hamburger">
+          <img src="/img/Hamburger menu.svg" alt="Hamburger menu icon">
+        </button>    
+        
     </header>
     <section id="underNav">
       <div id="africanQuotesText" class="col-4">AFRICAN QUOTES <img id="quotesImage" src="/img/africanQuotes.svg" alt="quotes image"></div>
@@ -36,55 +54,55 @@
       <div id="publicFiguresContainer">
         <div class="publicFigure col-6">
           <a href="/chinuaAchebe.html">
-            <img src="/img/chinuaAchebe.png" alt="Chinua Achebe's Image" />
+            <img class="col-5" src="/img/chinuaAchebe.png" alt="Chinua Achebe's Image" />
           </a>
-          <a href="/chinuaAchebe.html">
+          <a class="col-7" href="/chinuaAchebe.html">
             <p>Chinua Achebe</p>
           </a> 
           
         </div>
 
         <div class="publicFigure col-6">
-          <a href="/nelsonMandela.html">
+          <a class="col-5" href="#">
             <img src="/img/nelsonMandela.png" alt="Nelson Mandela's Image" />
           </a>
-          <a href="/nelsonMandela.html">
+          <a class="col-7" href="#">
             <p>Nelson Mandela</p>
           </a>  
         </div>
 
         <div class="publicFigure col-6">
-          <a href="/thomasSankara.html">
+          <a class="col-5" href="#">
             <img src="/img/thomasSankara.png" alt="Thomas Sankara's Image" />
           </a>
-          <a href="/thomasSankara.html">
+          <a class="col-7" href="#">
             <p>Thomas Sankara</p>
           </a>
         </div>
 
         <div class="publicFigure col-6">
-          <a href="/winnieMandela.html">
+          <a class="col-5" href="#">
             <img src="/img/winnieMandela.png" alt="Winnie Mandela's Image" />
           </a>
-          <a href="/winnieMandela.html">
+          <a class="col-7" href="#">
             <p>Winnie Mandela</p>
           </a>
         </div>
 
         <div class="publicFigure col-6">
-          <a href="/juliusNyerere.html">
+          <a class="col-5" href="#">
             <img src="/img/juliusNyere.png" alt="Julius Nyerere's Image" />
           </a>
-          <a href="/juliusNyerere.html">
+          <a class="col-7" href="#">
             <p>Julius Nyerere</p>
           </a>
         </div>
 
         <div class="publicFigure col-6">
-          <a href="/ellenJohnson.html">
+          <a class="col-5" href="#">
             <img src="/img/ellenJohnson.png" alt="Ellen Johnson-Sirleaf's Image" />
           </a>
-          <a href="/ellenJohnson.html" id="ellenNameText">
+          <a class="col-7" href="#" id="ellenNameText">
             <p >Ellen Johnson-Sirleaf</p>
           </a>
         </div>
@@ -143,9 +161,9 @@
           alt="vertically pointed arrow"/></a>
       </div>
     </footer>
-    
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
-        <!------------------------------------------END OF FOOTER HTML---------------------------------->
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <!------------------------------------------END OF FOOTER HTML------------------------------------------------>
+    <script src="/main.js"></script>
 </body>
 </html>

@@ -94,7 +94,6 @@ a:hover {
 /**********************************HEADER STYLES********************************************/
 /**********************************HEADER STYLES********************************************/
 
-
 header {
   display: flex;
   background-color: var(--Background-gradient);  
@@ -102,16 +101,19 @@ header {
 }
 
 header img{
-  margin-top: 1%;
+  display: flex;  
+  margin-top: 2%;
   margin-left: 2%;
+  width: 100%;
   background-color: var(--Background-gradient);  
+  height: 40%;
 }
 
 nav {
   font-size: 1.5vw;
   display: flex;
-  margin-top: 2%;  
-  padding-left: 26%;
+  margin-top: 2%;   
+  margin-left: 25.5%;
   background-color: var(--Background-gradient);  
 }
 
@@ -126,9 +128,34 @@ nav li {
   background-color: var(--Background-gradient);  
 }
 
-#resources{
-  background-color: var(--Background-gradient);  
-}
+#resources a{
+  background-color: var(--Background-gradient);
+  }
+  
+  #resources:hover{
+    width: 13%;
+    background-color: var(--Background-gradient); 
+  }
+  
+  #resources:hover #dropDown{
+    display: block;
+    z-index: 2;
+  }
+  
+  #dropDown {
+    display: none;
+    background-color: var(--Background-gradient); 
+  }
+  
+  #resourcesByCategory{
+    font-size: 1.5vw;
+    background-color: var(--Background-gradient); 
+  }
+  
+  #resourcesByCountry{
+    font-size: 1.5vw;
+    background-color: var(--Background-gradient); 
+  }
 
 #aboutUs{
   background-color: var(--Background-gradient);  
@@ -147,13 +174,17 @@ a#contactUs{
   background-color: var(--Background-gradient);
 }
 
+#hamburger{
+  display: none;
+}
+
 section {
   display: flex;  
   background-color: var(--Background-gradient);
   padding-bottom: 1%;
 }
 
-#afrotadaShopText{
+#joinOurTeamText{
   font-size: 1.9vw;
   font-weight: bold;
   color: var(--Orange);
@@ -484,34 +515,69 @@ li #cookiePolicyText{
 }
 
 @media screen and (max-width: 480px){
-  header img{
-    padding-top: 1.5vh;
-    padding-left: 0;
-    background-color: var(--Background-gradient);  
+  img.afrotadaLogo {
+    width: 25%;
+    margin-left: 2%;
   }
   
   nav {
+    margin-left:7%;
     font-size: 1.5vw;
-    display: flex;
-    padding-top: 1vh;
-    padding-left: 26%;
-    background-color: var(--Background-gradient);  
+    display: none;
+    margin-top: 12%;
+    margin-right: 5%;
+    z-index: 2;
   }
-  #afrotadaShopText {
-    padding-top: 0.5vh;
+  
+  nav li{
+    font-size: 3.5vw;
+    text-align: right;
+  }
+
+  #resources:active{
+    width: 100%;
+    display: block;
+  }
+
+  #dropDown{
+    display: block;
+  }
+
+  #resourcesByCategory{
+    font-size: 3.5vw;
+  }
+  
+  #resourcesByCountry{
+    font-size: 3.5vw;
+
+  }
+
+  #joinOurTeam{
+    margin-right: 0;
+  }
+
+  #hamburger{
+    display: unset;
+    position: absolute;
+    top: 1.5%;
+    right: 5%;  
+    outline: none;
+  }
+
+  #underNav{
+    padding-top: 3%;
+  }
+
+  #joinOurTeamText {
+    font-size: 3vw;
+    color: var(--Hover-orange);
   }
 
   input {
     padding-left: 1vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 1.5vw;
-    background-color: white;
-    width: 30vw;
-    height: 1vh;
-    border: none;
-    outline: none;
-    border-radius: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2vw;
   }
 
   img#searchIcon {
@@ -524,11 +590,49 @@ li #cookiePolicyText{
   }
 
   span:nth-child(1) a{
-    font-size: 2vw;
+    font-size: 3.5vw;
+  }
+
+  span:nth-child(2){
+    font-size: 3.5vw;
+  }
+
+  #privacyStatement{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   p{
-    font-size: 2vw;
+    font-size: 3.5vw;
+    width: 80%;
+    text-align: center;
+  }
+
+  input#name{
+    height: 3vh;
+  }
+
+  input#name{
+    font-size: 2.3vw;
+  }
+
+  input#email{
+    height: 3vh;
+  }
+
+  textarea{
+    font-size: 3vw;
+  }
+
+  label{
+    font-size: 3.5vw;
+  }
+
+  button#submit{
+    width: 25%;
+    font-size: 3.5vw;
   }
 
   #followUsText {
@@ -546,8 +650,9 @@ li #cookiePolicyText{
   form:nth-child(1){
     margin-top: 1%;
   }
-  p {
+  form p {
     margin-bottom: 2%;
+    font-size: 2vw;
   }
 
   input#name{
@@ -558,6 +663,76 @@ li #cookiePolicyText{
   input#email{
     margin-bottom: 0;
     margin-top: 0;
+  }
+
+  #followUsText {
+    font-size: 2.5vw;
+  }
+  
+  #policy li {
+    font-size: 1.7vw;
+  }
+  
+  #backToTop {
+    font-size: 1.5vw;
+  }
+  
+  form:nth-child(1){
+    margin-top: 1%;
+  }
+
+  input#name{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  input#email{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #followUsText{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+
+  img#socialMediaIcon1 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon2 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon3 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon4 {
+    width: 4vw;
+  }
+
+  #policy{
+    margin-left: 0%;
+    padding-left: 25%;
+  }
+
+  #policy li {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+  }
+
+  #backToTop{
+    font-size: 2vw;
+    padding-left: 0%;
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #backToTop img{
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 7%;
   }
 }
 

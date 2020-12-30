@@ -1,0 +1,572 @@
+:root 
+{--Background-colour: #E8F1CD;
+--Background-gradient: #DCE8B9;
+--Orange: #F15B12;
+--Hover-orange: #CD5014;
+--Lemon: #84A528;
+--Active-black: #040404;
+--Inactive-black: #373737;
+--Inactive-black-2: #727272;
+--Inactive-black-3: #D2D2D2;
+--White: #FFFFFF;
+--Border-black: #ADADAD;
+}
+
+
+/**********************************GLOBAL STYLES********************************************/
+/**********************************GLOBAL STYLES********************************************/
+/**********************************GLOBAL STYLES********************************************/
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: var(--Background-colour) 0% 0% no-repeat padding-box;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+
+/* WEB DEVELOPMENT BY OLABAYO BALOGUN (olabayobalogun@gmail.com) */
+/*UI/UX DESIGN BY OPEYEMI ADETIFA (opeyemiadetifa17@gmail.com)  */
+
+a {
+  text-decoration-line: none;
+  color: var(--Active-black);
+}
+
+
+a:hover {
+  color: var(--Hover-orange);
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-5 {
+  width: 41.6666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3332%;
+}
+
+.col-8 {
+  width: 66.6665%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3331%;
+}
+
+.col-11 {
+  width: 91.6664%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/**********************************END OF GLOBAL STYLES********************************************/
+/**********************************END OF GLOBAL STYLES********************************************/
+/**********************************END OF GLOBAL STYLES********************************************/
+
+/**********************************HEADER STYLES********************************************/
+/**********************************HEADER STYLES********************************************/
+/**********************************HEADER STYLES********************************************/
+
+
+header {
+  display: flex;
+  background-color: var(--Background-gradient);  
+  padding-bottom: 1vw;
+  width: 100%;
+}
+
+header img{
+  display: flex;  
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 100%;
+  background-color: var(--Background-gradient);  
+  height: 40%;
+}
+
+nav {
+  font-size: 1.5vw;
+  display: flex;
+  margin-top: 2%;   
+  margin-left: 25.5%;
+  background-color: var(--Background-gradient);  
+}
+
+nav li {
+  list-style: none;
+  margin-right: 1.5%;
+  font-size: 1.7vw;
+  background-color: var(--Background-gradient);  
+}
+
+.home{
+  background-color: var(--Background-gradient);  
+}
+
+#resources{
+  background-color: var(--Background-gradient);  
+}
+
+#aboutUs{
+  background-color: var(--Background-gradient);
+} 
+
+#afrotadaShop{
+  background-color: var(--Background-gradient);
+}
+
+#contactUs{
+  background-color: var(--Background-gradient);  
+} 
+
+#resources a{
+background-color: var(--Background-gradient);
+}
+
+#resources:hover{
+  width: 13%;
+  background-color: var(--Background-gradient); 
+}
+
+#resources:hover #dropDown{
+  display: block;
+  z-index: 2;
+}
+
+#dropDown {
+  display: none;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCategory{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCountry{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByMap{
+    color: var(--Hover-orange);
+}
+
+
+#joinOurTeam{
+  color: var(--Lemon);
+  background-color: var(--Background-gradient);
+}
+
+#hamburger{
+  display: none;
+}
+
+section {
+  display: flex;  
+  background-color: var(--Background-gradient);
+  padding-bottom: 1%;
+}
+
+#resourcesText{
+  font-size: 1.9vw;
+  font-weight: bold;
+  color: var(--Orange);
+  margin-left: 2vw;
+  background-color: var(--Background-gradient);
+  padding-top: 0.3%; 
+}
+
+#resourcesText a:first-child{
+    color: var(--Hover-orange);
+}
+
+#resourcesText a{
+    background-color: var(--Background-gradient);
+}
+
+#resourcesText img{
+    width: 7%;
+    background-color: var(--Background-gradient);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+form{
+  display: flex;
+  margin-left: 3%;
+  margin-right: 4%;
+  background-color: var(--Background-gradient);
+  padding-bottom: 1vh;
+  
+}
+
+input {
+  padding-left: 1vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 2vw;
+  background-color: white;
+  width: 30vw;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: none;
+}
+
+img#searchIcon {
+  width: 12%;
+  padding: 2%;
+  color: white;
+  background-color: var(--Orange);
+  height: 100%;
+  margin-right: 5%;
+}
+
+button {
+  display: contents;
+}
+
+
+/**********************************END OF HEADER STYLES********************************************/
+/**********************************END OF HEADER STYLES********************************************/
+/**********************************END OF HEADER STYLES********************************************/
+
+/**********************************BODY STYLES********************************************/
+/**********************************BODY STYLES********************************************/
+/**********************************BODY STYLES********************************************/
+body {
+  background-repeat: no-repeat;
+  background-color: var(--Background-colour);
+}
+
+main img {
+  width: 60vw;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+
+/**********************************FOOTER STYLES********************************************/
+/**********************************FOOTER STYLES********************************************/
+/**********************************FOOTER STYLES********************************************/
+
+footer {
+  text-align: center;
+}
+
+#followUsText {
+  font-size: 1.75vw;
+  width: 15vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+}
+
+#socialMedia img{
+  margin: auto;
+  margin-top: 2vh;
+}
+
+img#socialMediaIcon1 {
+  width: 3vw;
+  margin-right: 1vw;
+}
+
+img#socialMediaIcon2 {
+  width: 3vw;
+  margin-right: 1vw;
+}
+
+img#socialMediaIcon3 {
+  width: 3vw;
+  margin-right: 1vw;
+}
+
+img#socialMediaIcon4{
+  width: 3vw;
+  
+}
+
+#policy {
+  display: flex;
+  width: 100%;
+  padding-left: 35%;
+  margin-top: 2%;
+}
+
+#policy li {
+  margin-right: 2vw;
+  font-size: 1.5vw;
+  margin-bottom: 5vh;
+  list-style: none;
+}
+
+#backToTop {
+  padding-left: 22%;
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+  width: 40%
+}
+
+#backToTop img {
+  padding-left: 10%;
+  width: 4vw;
+}
+/**********************************END OF FOOTER STYLES********************************************/
+/**********************************END OF FOOTER STYLES********************************************/
+/**********************************END OF FOOTER STYLES********************************************/
+@media screen and (max-width: 1024px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 0%;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 3.5%;
+    padding-left: 27%;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  form{
+    display: flex;
+    margin-left: 3%;
+    background-color: var(--Background-gradient);
+    padding-bottom: 1vh;
+    
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 12%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 768px){
+  header img{
+    padding-top: 1.5vh;
+    padding-left: 0%;
+    background-color: var(--Background-gradient);  
+  }
+  
+  nav {
+    font-size: 1.5vw;
+    display: flex;
+    padding-top: 4%;
+    padding-left: 27%;
+    background-color: var(--Background-gradient);  
+  }
+  #afrotadaShopText {
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 12%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 480px){
+    img.afrotadaLogo {
+        width: 25%;
+        margin-left: 2%;
+      }
+      
+      nav {
+        margin-left:7%;
+        font-size: 1.5vw;
+        display: none;
+        margin-top: 12%;
+        margin-right: 5%;
+        z-index: 2;
+      }
+      
+      nav li{
+        font-size: 3.5vw;
+        text-align: right;
+      }
+    
+      #resources:active{
+        width: 100%;
+        display: block;
+      }
+    
+      #dropDown{
+        display: block;
+      }
+    
+      #resourcesByCategory a{
+        font-size: 3.5vw;
+        color: var(--Hover-orange);
+      }
+      
+      #resourcesByCountry{
+        font-size: 3.5vw;
+      }
+    
+      #joinOurTeam{
+        margin-right: 0;
+      }
+    
+      #hamburger{
+        display: unset;
+        position: absolute;
+        top: 2.5%;
+        right: 5%;  
+        outline: none;
+      }
+    
+      #underNav{
+        padding-top: 3%;
+      }
+
+  form{
+    display: flex;
+    margin-right: 5.5%;
+    background-color: var(--Background-gradient);
+    padding-bottom: 1vh;
+    padding-top: 0.5vh;
+  }
+
+  input {
+    padding-left: 1vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.2vw;
+    background-color: white;
+    width: 30vw;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+
+  img#searchIcon {
+    width: 10%;
+    padding: 0.5vw;
+    color: white;
+    background-color: var(--Orange);
+    height: 100%;
+    margin-right: 5%;
+  }
+
+  main img {
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #followUsText{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+
+  img#socialMediaIcon1 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon2 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon3 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon4 {
+    width: 4vw;
+  }
+
+  #policy{
+    margin-left: 0%;
+    padding-left: 25%;
+  }
+
+  #policy li {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+  }
+
+  #backToTop{
+    font-size: 2vw;
+    padding-left: 0%;
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #backToTop img{
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 7%;
+  }
+}

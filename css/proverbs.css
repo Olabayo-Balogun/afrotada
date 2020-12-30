@@ -100,21 +100,23 @@ header {
   display: flex;
   background-color: var(--Background-gradient);  
   padding-bottom: 1vw;
-  margin-right: -2vw;
   width: 100%;
 }
 
 header img{
-  margin-top: 1%;
+  display: flex;  
+  margin-top: 2%;
   margin-left: 2%;
+  width: 100%;
   background-color: var(--Background-gradient);  
+  height: 40%;
 }
 
 nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  padding-left: 27%;
+  margin-left: 25.5%;
   background-color: var(--Background-gradient);  
 }
 
@@ -125,13 +127,40 @@ nav li {
   background-color: var(--Background-gradient);  
 }
 
+
 .home{
   background-color: var(--Background-gradient);  
 }
 
-#resources{
-  background-color: var(--Background-gradient);  
+#resources a{
+  background-color: var(--Background-gradient);
 }
+  
+#resources:hover{
+  width: 13%;
+  background-color: var(--Background-gradient); 
+}
+  
+#resources:hover #dropDown{
+  display: block;
+  z-index: 2;
+}
+
+#dropDown {
+  display: none;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCategory{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCountry{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+  
 
 #aboutUs{
   background-color: var(--Background-gradient);  
@@ -148,6 +177,10 @@ nav li {
 #joinOurTeam{
   color: var(--Lemon);
   background-color: var(--Background-gradient);
+}
+
+#hamburger{
+  display: none;
 }
 
 section {
@@ -394,17 +427,56 @@ img#socialMediaIcon4{
 
 @media screen and (max-width: 480px){
   img.afrotadaLogo {
-    width: 15%;
+    width: 25%;
     margin-left: 2%;
   }
   
   nav {
     margin-left:7%;
     font-size: 1.5vw;
-    display: flex;
-    padding-top: 1%;
-    padding-left: 21%;
-    background-color:  #DCE8B9;
+    display: none;
+    margin-top: 12%;
+    margin-right: 5%;
+    z-index: 2;
+  }
+  
+  nav li{
+    font-size: 3.5vw;
+    text-align: right;
+  }
+
+  #resources:active{
+    width: 100%;
+    display: block;
+  }
+
+  #dropDown{
+    display: block;
+  }
+
+  #resourcesByCategory{
+    font-size: 3.5vw;
+  }
+  
+  #resourcesByCountry{
+    font-size: 3.5vw;
+
+  }
+
+  #joinOurTeam{
+    margin-right: 0;
+  }
+
+  #hamburger{
+    display: unset;
+    position: absolute;
+    top: 2.5%;
+    right: 5%;  
+    outline: none;
+  }
+
+  #underNav{
+    padding-top: 3%;
   }
   #africanCultureText {
     padding-top: 0.5vh;
@@ -430,5 +502,49 @@ img#socialMediaIcon4{
     background-color: var(--Orange);
     height: 100%;
     margin-right: 5%;
+  }
+
+  #followUsText{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+
+  img#socialMediaIcon1 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon2 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon3 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon4 {
+    width: 4vw;
+  }
+
+  #policy{
+    margin-left: 0%;
+    padding-left: 25%;
+  }
+
+  #policy li {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+  }
+
+  #backToTop{
+    font-size: 2vw;
+    padding-left: 0%;
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #backToTop img{
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 7%;
   }
 }

@@ -94,27 +94,26 @@ a:hover {
 /**********************************HEADER STYLES********************************************/
 /**********************************HEADER STYLES********************************************/
 /**********************************HEADER STYLES********************************************/
-
-
 header {
   display: flex;
   background-color: var(--Background-gradient);  
-  padding-bottom: 1vw;
-  margin-right: -2vw;
   width: 100%;
 }
 
 header img{
-  margin-top: 1%;
+  display: flex;  
+  margin-top: 2%;
   margin-left: 2%;
+  width: 100%;
   background-color: var(--Background-gradient);  
+  height: 40%;
 }
 
 nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  padding-left: 26%;
+  margin-left: 25.5%;
   background-color: var(--Background-gradient);  
 }
 
@@ -124,6 +123,7 @@ nav li {
   font-size: 1.7vw;
   background-color: var(--Background-gradient);  
 }
+
 
 .home{
   background-color: var(--Background-gradient);  
@@ -135,7 +135,7 @@ nav li {
 
 #aboutUs{
   background-color: var(--Background-gradient);
-  color: var(--Hover-orange);  
+  color: var(--Hover-orange)
 } 
 
 #afrotadaShop{
@@ -146,18 +146,53 @@ nav li {
   background-color: var(--Background-gradient);  
 } 
 
+#resources a{
+background-color: var(--Background-gradient);
+}
+
+#resources:hover{
+  width: 13%;
+  background-color: var(--Background-gradient); 
+}
+
+#resources:hover #dropDown{
+  display: block;
+  z-index: 2;
+}
+
+#dropDown {
+  display: none;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCategory{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCountry{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+
 #joinOurTeam{
   color: var(--Lemon);
   background-color: var(--Background-gradient);
 }
 
-section {
+#hamburger{
+  display: none;
+}
+
+section#underNav {
   display: flex;  
   background-color: var(--Background-gradient);
   padding-bottom: 1%;
 }
 
-#afrotadaShopText{
+
+#aboutUsText{
   font-size: 1.9vw;
   font-weight: bold;
   color: var(--Orange);
@@ -169,6 +204,7 @@ section {
 form{
   display: flex;
   margin-left: 3%;
+  margin-right: 4%;
   background-color: var(--Background-gradient);
   padding-bottom: 1vh;  
 }
@@ -214,10 +250,11 @@ body {
 section#intro{
   display: flex;
   margin-top: 5%;
-  background-color:var(--Background-colour)
+  background-color:var(--Background-colour);
+  width: 90%;
 }
 
-#aboutUsText p{
+#aboutUsContent p{
   width: 80%;
   margin-left: 20%;
   font-size: 1.5vw;
@@ -225,9 +262,9 @@ section#intro{
   padding-right: 20%;
 }
 
-#aboutUsImg img{
+img#aboutUsContentImage {
   width: 15vw;
-  margin-left: 7vw;
+  margin-right: 20%;
 }
 
 .purpose{
@@ -273,7 +310,7 @@ p {
   font-weight: bold;
 }
 
-section.visionAndMission {
+section#visionAndMission {
   display: flex;
   background-color: var(--Background-colour);
   width:60%;
@@ -281,7 +318,7 @@ section.visionAndMission {
   margin-top: 5%;
 }
 
-.vision{
+#vision{
   background-color: var(--Background-gradient);
   border-radius: 5%;
   width: 30%;
@@ -289,7 +326,7 @@ section.visionAndMission {
   margin-left: 10%
 }
 
-.mission{
+#mission{
   background-color: var(--Background-gradient);
   border-radius: 5%;
   width: 30%;
@@ -306,7 +343,7 @@ h3{
   border-radius: 10%;
 }
 
-.vision p{
+#vision p{
   background-color: var(--Background-gradient);
   width: 70%;
   margin: auto;
@@ -314,7 +351,7 @@ h3{
   padding-top: 10%;
 }
 
-.mission p{
+#mission p{
   background-color: var(--Background-gradient);
   padding-bottom: 10%;
   width: 80%;
@@ -362,7 +399,7 @@ li {
   list-style-type: none;
 }
 
-.logoInterpretation{
+#logoInterpretation{
   width:45%;
   margin: auto;
   display: block;
@@ -373,14 +410,14 @@ li {
   margin-bottom: 5%;
 }
 
-.logoInterpretation p{  
+#logoInterpretation p{  
   background-color: var(--Background-gradient);
   padding-left: 5%;
   margin: auto;
   padding-right: 5%;
 }
 
-.logoInterpretation p:last-child{  
+#logoInterpretation p:last-child{  
   padding-bottom: 5%;
 }
 
@@ -609,28 +646,71 @@ img#socialMediaIcon4{
 }
 
 @media screen and (max-width: 480px){
-  header img{
-    padding-top: 1.5vh;
-    padding-left: 0vw;
-    background-color: var(--Background-gradient);  
+  img.afrotadaLogo {
+    width: 25%;
+    margin-left: 2%;
   }
   
   nav {
+    margin-left:7%;
     font-size: 1.5vw;
-    display: flex;
-    padding-top: 1vh;
-    padding-left: 26%;
-    background-color: var(--Background-gradient);  
+    display: none;
+    margin-top: 12%;
+    margin-right: 5%;
+    z-index: 2;
   }
-  #afrotadaShopText {
-    padding-top: 0.5vh;
+  
+  nav li{
+    font-size: 3.5vw;
+    text-align: right;
+  }
+
+  #resources:active{
+    width: 100%;
+    display: block;
+  }
+
+  #dropDown{
+    display: block;
+  }
+
+  #resourcesByCategory{
+    font-size: 3.5vw;
+  }
+  
+  #resourcesByCountry{
+    font-size: 3.5vw;
+
+  }
+
+  #joinOurTeam{
+    margin-right: 0;
+  }
+
+  #hamburger{
+    display: unset;
+    position: absolute;
+    top: 1.5%;
+    right: 5%;  
+    outline: none;
+  }
+
+  #underNav{
+    padding-top: 3%;
+  }
+
+  #aboutUsText {
+    font-size: 3vw;
+    background-color: var(--Background-gradient);
+    margin-left: 2%;
+    color: var(--Hover-orange);
   }
 
   input {
     padding-left: 1vw;
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 1.5vw;
+    font-size: 2vw;
     background-color: white;
     width: 30vw;
     height: 1vh;
@@ -648,13 +728,104 @@ img#socialMediaIcon4{
     margin-right: 5%;
   }
 
-  p{
-    font-size: 1.7vw;
+  h1{
+    font-size: 5vw;
+    margin-right: 0;
+  }
+
+  #aboutUsContent p{
+    font-size: 3vw;
+    width: 74vw;
+    margin-left: 8%;
+  }
+
+  img#aboutUsContentImage {
+    margin-left: 10vw;
+  }
+  
+  #purpose{
+    margin-top:5%;
+  }
+
+  #purpose ul li{
+    font-size: 3vw;
+    text-align: justify;
+    margin-top: 2%;
+  } 
+
+  #purpose ul li img{
+    width: 3%;
+    background-color: var(--Background-colour);
+  } 
+
+  section#visionAndMission{
+    display: block;
+  }
+
+  div#vision{
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+
+  div#mission{
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+
+  h3{
+    font-size: 4vw;
+  }
+
+  #vision p{
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5%;
+  }
+
+  #mission p{
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5%;
+  }
+
+  section#objectives{
+    width: 60%;
+    margin: auto;
+  }
+
+  section#objectives li{
+    font-size: 3vw;
+    text-align: justify;
+    padding-bottom: 3%;
+  }
+
+  section#objectives li img{
+    width: 5%;
+  }
+
+  section#logoInterpretation{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  section#logoInterpretation p{
+    font-size: 3vw;
+    text-align: justify;
+    margin-bottom: 3%;
   }
 
   li{
-    font-size: 1.7vw;
+    font-size: 2vw;
   }
+
 
   .teamProfile{
     display: block;
@@ -662,9 +833,53 @@ img#socialMediaIcon4{
 
   p.name{
     color: var(--Lemon);
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     width: 40vw;
     padding-left: 10%;
     padding-top: 5%;
+  }
+
+  #followUsText{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+
+  img#socialMediaIcon1 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon2 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon3 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon4 {
+    width: 4vw;
+  }
+
+  #policy{
+    margin-left: 0%;
+    padding-left: 25%;
+  }
+
+  #policy li {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+  }
+
+  #backToTop{
+    font-size: 2vw;
+    padding-left: 0%;
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #backToTop img{
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 7%;
   }
 }

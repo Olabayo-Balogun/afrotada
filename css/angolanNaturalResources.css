@@ -129,9 +129,35 @@ nav li {
   background-color: var(--Background-gradient);  
 }
 
-#resources{
-  background-color: var(--Background-gradient);  
+#resources a{
+  background-color: var(--Background-gradient);
 }
+  
+#resources:hover{
+  width: 13%;
+  background-color: var(--Background-gradient); 
+}
+  
+#resources:hover #dropDown{
+  display: block;
+  z-index: 2;
+}
+
+#dropDown {
+  display: none;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCategory{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+
+#resourcesByCountry{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}
+  
 
 #aboutUs{
   background-color: var(--Background-gradient);  
@@ -148,6 +174,10 @@ nav li {
 #joinOurTeam{
   color: var(--Lemon);
   background-color: var(--Background-gradient);
+}
+
+#hamburger{
+  display: none;
 }
 
 section {
@@ -441,5 +471,49 @@ img#socialMediaIcon4{
     background-color: var(--Orange);
     height: 100%;
     margin-right: 5%;
+  }
+
+  #followUsText{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+
+  img#socialMediaIcon1 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon2 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon3 {
+    width: 4vw;
+  }
+
+  img#socialMediaIcon4 {
+    width: 4vw;
+  }
+
+  #policy{
+    margin-left: 0%;
+    padding-left: 25%;
+  }
+
+  #policy li {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+  }
+
+  #backToTop{
+    font-size: 2vw;
+    padding-left: 0%;
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #backToTop img{
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 7%;
   }
 }
