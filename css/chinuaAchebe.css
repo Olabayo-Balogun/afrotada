@@ -32,7 +32,9 @@
 a {
   text-decoration-line: none;
   color: var(--Active-black);
+  outline: none;
 }
+
 
 
 a:hover {
@@ -160,7 +162,11 @@ nav li {
   font-size: 1.5vw;
   background-color: var(--Background-gradient); 
 }
-  
+
+#resourcesByMap{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}  
 
 #aboutUs{
   background-color: var(--Background-gradient);  
@@ -253,22 +259,31 @@ body {
 main {
   width: 80%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 3%;
+  margin-bottom: 7%;
 }
 
 #publicFigureQuote{
   display: flex;
+  margin-bottom: 5%;
 }
 
 #publicFigureQuote img{
-    width: 8%;
-    margin-left: 30%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h3{
+  margin-right: 15%;
+  font-size: 2vw;
+  margin-left: 15%;
 }
 
 q{
-    display: block;
-    margin: auto;
-    margin-bottom: 2%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2%;
     
 }
 /**********************************END OF BODY STYLES********************************************/
@@ -458,7 +473,10 @@ img#socialMediaIcon4{
   
   #resourcesByCountry{
     font-size: 3.5vw;
+  }
 
+  #resourcesByMap{
+    font-size: 3.5vw;
   }
 
   #joinOurTeam{
@@ -468,7 +486,7 @@ img#socialMediaIcon4{
   #hamburger{
     display: unset;
     position: absolute;
-    top: 2.5%;
+    top: 2%;
     right: 5%;  
     outline: none;
   }
@@ -476,21 +494,16 @@ img#socialMediaIcon4{
   #underNav{
     padding-top: 3%;
   }
-  #africanCultureText {
-    padding-top: 0.5vh;
+
+  #africanQuotesText {
+    font-size: 3vw;
   }
 
   input {
     padding-left: 1vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 1.5vw;
-    background-color: white;
-    width: 30vw;
-    height: 1vh;
-    border: none;
-    outline: none;
-    border-radius: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2vw;
   }
 
   img#searchIcon {
@@ -500,6 +513,29 @@ img#socialMediaIcon4{
     background-color: var(--Orange);
     height: 100%;
     margin-right: 5%;
+  }
+
+  main{
+    margin-top: 5%;
+  }
+
+  #publicFigureQuote img{
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  h3{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  h3{
+    font-size: 4vw;
+  }
+
+  q{
+    font-size: 3.5vw;
   }
 
   #followUsText{

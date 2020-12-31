@@ -31,7 +31,9 @@
 a {
   text-decoration-line: none;
   color: var(--Active-black);
+  outline: none;
 }
+
 
 
 a:hover {

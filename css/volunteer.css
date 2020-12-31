@@ -549,7 +549,10 @@ li #cookiePolicyText{
   
   #resourcesByCountry{
     font-size: 3.5vw;
+  }
 
+  #resourcesByMap{
+    font-size: 3.5vw;
   }
 
   #joinOurTeam{

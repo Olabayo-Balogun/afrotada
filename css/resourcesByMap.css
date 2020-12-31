@@ -32,7 +32,9 @@
 a {
   text-decoration-line: none;
   color: var(--Active-black);
+  outline: none;
 }
+
 
 
 a:hover {
@@ -151,6 +153,10 @@ nav li {
 background-color: var(--Background-gradient);
 }
 
+a#resourcesFirstChild{
+  color: var(--Hover-orange);
+}
+
 #resources:hover{
   width: 13%;
   background-color: var(--Background-gradient); 
@@ -177,7 +183,8 @@ background-color: var(--Background-gradient);
 }
 
 #resourcesByMap{
-    color: var(--Hover-orange);
+  color: var(--Hover-orange);
+  font-size: 1.5vw;
 }
 
 
@@ -197,7 +204,7 @@ section {
 }
 
 #resourcesText{
-  font-size: 1.9vw;
+  font-size: 1.5vw;
   font-weight: bold;
   color: var(--Orange);
   margin-left: 2vw;
@@ -214,7 +221,7 @@ section {
 }
 
 #resourcesText img{
-    width: 7%;
+    width: 4%;
     background-color: var(--Background-gradient);
     margin-left: 2%;
     margin-right: 2%;
@@ -233,7 +240,7 @@ input {
   padding-left: 1vw;
   padding-top: 2%;
   padding-bottom: 2%;
-  font-size: 2vw;
+  font-size: 1.5vw;
   background-color: white;
   width: 30vw;
   height: 100%;
@@ -269,8 +276,8 @@ body {
 }
 
 main img {
-  width: 60vw;
-  margin-left: 20%;
+  width: 70vw;
+  margin-left: 15%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -437,77 +444,80 @@ img#socialMediaIcon4{
 }
 
 @media screen and (max-width: 480px){
-    img.afrotadaLogo {
-        width: 25%;
-        margin-left: 2%;
-      }
-      
-      nav {
-        margin-left:7%;
-        font-size: 1.5vw;
-        display: none;
-        margin-top: 12%;
-        margin-right: 5%;
-        z-index: 2;
-      }
-      
-      nav li{
-        font-size: 3.5vw;
-        text-align: right;
-      }
-    
-      #resources:active{
-        width: 100%;
-        display: block;
-      }
-    
-      #dropDown{
-        display: block;
-      }
-    
-      #resourcesByCategory a{
-        font-size: 3.5vw;
-        color: var(--Hover-orange);
-      }
-      
-      #resourcesByCountry{
-        font-size: 3.5vw;
-      }
-    
-      #joinOurTeam{
-        margin-right: 0;
-      }
-    
-      #hamburger{
-        display: unset;
-        position: absolute;
-        top: 2.5%;
-        right: 5%;  
-        outline: none;
-      }
-    
-      #underNav{
-        padding-top: 3%;
-      }
+  img.afrotadaLogo {
+    width: 25%;
+    margin-left: 2%;
+  }
+  
+  nav {
+    margin-left:7%;
+    font-size: 1.5vw;
+    display: block;
+    margin-top: 12%;
+    margin-left: 20%;
+    margin-right: 4%;
+    z-index: 2;
+  }
+  
+  nav li{
+    font-size: 3.5vw;
+    text-align: right;
+  }
+
+    #resources:active{
+    width: 100%;
+    display: block;
+  }
+
+  #dropDown{
+    display: block;
+  }
+
+  #resourcesByCategory{
+    font-size: 3.5vw;
+  }
+  
+  #resourcesByCountry{
+    font-size: 3.5vw;
+  }
+
+  #resourcesByMap{
+    font-size: 3.5vw;
+  }
+
+  #joinOurTeam{
+    margin-right: 0;
+  }
+
+  #hamburger{
+    display: unset;
+    position: absolute;
+    top: 2.5%;
+    right: 5%;  
+    outline: none;
+  }
+
+  #underNav{
+    padding-top: 3%;
+  }
+  
+  #resourcesText{
+    font-size: 2vw;
+  }
 
   form{
     display: flex;
-    margin-right: 5.5%;
+    margin-right: 4%;
     background-color: var(--Background-gradient);
     padding-bottom: 1vh;
-    padding-top: 0.5vh;
+    padding-top: 0vh;
   }
 
   input {
     padding-left: 1vw;
     padding-top: 3%;
     padding-bottom: 3%;
-    font-size: 2.2vw;
-    background-color: white;
-    width: 30vw;
-    height: 100%;
-    border: none;
-    outline: none;
+    font-size: 2vw;
   }
 
   img#searchIcon {

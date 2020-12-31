@@ -32,7 +32,9 @@
 a {
   text-decoration-line: none;
   color: var(--Active-black);
+  outline: none;
 }
+
 
 
 a:hover {
@@ -434,7 +436,10 @@ img#socialMediaIcon4{
   
   #resourcesByCountry{
     font-size: 3.5vw;
+  }
 
+  #resourcesByMap{
+    font-size: 3.5vw;
   }
 
   #joinOurTeam{

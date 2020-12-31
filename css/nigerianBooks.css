@@ -31,7 +31,9 @@
 a {
   text-decoration-line: none;
   color: var(--Active-black);
+  outline: none;
 }
+
 
 
 a:hover {
@@ -157,7 +159,11 @@ nav li {
   font-size: 1.5vw;
   background-color: var(--Background-gradient); 
 }
-  
+
+#resourcesByMap{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}  
 
 #aboutUs{
   background-color: var(--Background-gradient);  

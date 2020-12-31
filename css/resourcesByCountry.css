@@ -31,7 +31,9 @@
 a {
   text-decoration-line: none;
   color: var(--Active-black);
+  outline: none;
 }
+
 
 
 a:hover {
@@ -151,6 +153,10 @@ nav li {
 background-color: var(--Background-gradient);
 }
 
+a#resourcesFirstChild{
+  color: var(--Hover-orange);
+}
+
 #resources:hover{
   width: 13%;
   background-color: var(--Background-gradient); 
@@ -168,18 +174,20 @@ background-color: var(--Background-gradient);
 
 #resourcesByCategory{
   font-size: 1.5vw;
-  background-color: var(--Background-gradient); 
 }
 
 #resourcesByCountry{
   font-size: 1.5vw;
-  background-color: var(--Background-gradient); 
+}
+
+#resourcesByMap{
+  font-size: 1.5vw;
 }
 
 
 #joinOurTeam{
   color: var(--Lemon);
-  background-color: var(--Background-gradient);
+  background-color: var(--Background-gradient);  
 }
 
 #hamburger{

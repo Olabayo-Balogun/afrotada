@@ -31,7 +31,9 @@
 a {
   text-decoration-line: none;
   color: var(--Active-black);
+  outline: none;
 }
+
 
 
 a:hover {
@@ -156,7 +158,11 @@ nav li {
   font-size: 1.5vw;
   background-color: var(--Background-gradient); 
 }
-  
+
+#resourcesByMap{
+  font-size: 1.5vw;
+  background-color: var(--Background-gradient); 
+}  
 
 #aboutUs{
   background-color: var(--Background-gradient);  
@@ -665,7 +671,10 @@ img#socialMediaIcon4{
   
   #resourcesByCountry{
     font-size: 3.5vw;
+  }
 
+  #resourcesByMap{
+    font-size: 3.5vw;
   }
 
   #joinOurTeam{
