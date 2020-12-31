@@ -133,6 +133,10 @@ nav li {
   background-color: var(--Background-gradient);  
 }
 
+#resources{
+  background-color: var(--Background-gradient);
+}
+
 #resources a{
   background-color: var(--Background-gradient);
 }
@@ -578,12 +582,6 @@ img#socialMediaIcon4{
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 2vw;
-    background-color: white;
-    width: 30vw;
-    height: 1vh;
-    border: none;
-    outline: none;
-    border-radius: none;
   }
 
   img#searchIcon {

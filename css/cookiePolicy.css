@@ -131,6 +131,10 @@ nav li {
   background-color: var(--Background-gradient);  
 }
 
+#resources{
+  background-color: var(--Background-gradient);
+}
+
 #resources a{
   background-color: var(--Background-gradient);
 }

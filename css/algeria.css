@@ -100,22 +100,24 @@ a:hover {
 header {
   display: flex;
   background-color: var(--Background-gradient);  
-  padding-bottom: 1%;
-  margin-right: -2%;
+  padding-bottom: 1vw;
   width: 100%;
 }
 
 header img{
-  margin-top: 1%;
+  display: flex;  
+  margin-top: 2%;
   margin-left: 2%;
+  width: 100%;
   background-color: var(--Background-gradient);  
+  height: 40%;
 }
 
 nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  padding-left: 27%;
+  margin-left: 25.5%;
   background-color: var(--Background-gradient);  
 }
 
@@ -128,6 +130,10 @@ nav li {
 
 .home{
   background-color: var(--Background-gradient);  
+}
+
+#resources{
+  background-color: var(--Background-gradient);
 }
 
 #resources a{
@@ -192,7 +198,7 @@ section {
 }
 
 #resourcesText{
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   font-weight: bold;
   color: var(--Orange);
   margin-left: 2%;
@@ -216,9 +222,10 @@ section {
 
 form{
   display: flex;
-  margin-left: 28%;
+  margin-left: 20%;
+  margin-right: 4%;
   background-color: var(--Background-gradient);
-  padding-bottom: 1%;  
+  padding-bottom: 1vh;  
 }
 
 input {
@@ -692,6 +699,14 @@ img#socialMediaIcon4{
   #underNav{
     padding-top: 3%;
   }
+  
+  input {
+    padding-left: 1vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2vw;
+  }
+
 
  #countryInformation p{
     font-size: 2vw;
@@ -705,9 +720,8 @@ img#socialMediaIcon4{
   }
   
   #resourcesText{
-    font-size: 1.46vw;
+    font-size: 2vw;
   }
-
   .africanBooks img{
     width: 60%;
   }
