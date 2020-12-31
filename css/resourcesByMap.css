@@ -182,7 +182,7 @@ a#resourcesFirstChild{
   background-color: var(--Background-gradient); 
 }
 
-#resourcesByMap{
+#resourcesByMap a{
   color: var(--Hover-orange);
   font-size: 1.5vw;
 }
@@ -481,8 +481,10 @@ img#socialMediaIcon4{
     font-size: 3.5vw;
   }
 
-  #resourcesByMap{
+  
+  #resourcesByMap a{
     font-size: 3.5vw;
+    color: var(--Hover-orange);
   }
 
   #joinOurTeam{
