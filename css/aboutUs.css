@@ -260,7 +260,7 @@ section#intro{
 
 #aboutUsContent p{
   width: 80%;
-  margin-left: 20%;
+  margin-left: 15%;
   font-size: 1.5vw;
   text-align: justify;
   padding-right: 20%;
@@ -445,6 +445,9 @@ span{
   color: green;
 }
 
+span.orangeText{
+  color: orange;
+}
 
 #blackText{
   color: black;
@@ -742,12 +745,12 @@ img#socialMediaIcon4{
 
   #aboutUsContent p{
     font-size: 3vw;
-    width: 74vw;
+    width: 100%;
     margin-left: 8%;
   }
 
   img#aboutUsContentImage {
-    margin-left: 10vw;
+    margin-left: 20%;
   }
   
   #purpose{
