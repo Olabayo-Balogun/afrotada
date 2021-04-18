@@ -1,15 +1,15 @@
-:root 
-{--Background-colour: #E8F1CD;
---Background-gradient: #DCE8B9;
---Orange: #F15B12;
---Hover-orange: #CD5014;
---Lemon: #84A528;
---Active-black: #040404;
---Inactive-black: #373737;
---Inactive-black-2: #727272;
---Inactive-black-3: #D2D2D2;
---White: #FFFFFF;
---Border-black: #ADADAD;
+:root {
+  --Background-colour: #e8f1cd;
+  --Background-gradient: #dce8b9;
+  --Orange: #f15b12;
+  --Hover-orange: #cd5014;
+  --Lemon: #84a528;
+  --Active-black: #040404;
+  --Inactive-black: #373737;
+  --Inactive-black-2: #727272;
+  --Inactive-black-3: #d2d2d2;
+  --White: #ffffff;
+  --Border-black: #adadad;
 }
 
 /**********************************GLOBAL STYLES********************************************/
@@ -34,12 +34,9 @@ a {
   outline: none;
 }
 
-
-
 a:hover {
   color: var(--Hover-orange);
 }
-
 
 .col-1 {
   width: 8.3333%;
@@ -98,119 +95,116 @@ a:hover {
 /**********************************HEADER STYLES********************************************/
 header {
   display: flex;
-  background-color: var(--Background-gradient);  
+  background-color: var(--Background-gradient);
   width: 100%;
 }
 
-header img{
-  display: flex;  
+header img {
+  display: flex;
   margin-top: 2%;
   margin-left: 2%;
   width: 100%;
-  background-color: var(--Background-gradient);  
+  background-color: var(--Background-gradient);
   height: 40%;
 }
 
 nav {
   font-size: 1.5vw;
   display: flex;
-  margin-top: 2%;   
+  margin-top: 2%;
   margin-left: 25.5%;
-  background-color: var(--Background-gradient);  
+  background-color: var(--Background-gradient);
 }
 
 nav li {
   list-style: none;
   margin-right: 1.5%;
   font-size: 1.7vw;
-  background-color: var(--Background-gradient);  
-}
-
-
-.home{
-  background-color: var(--Background-gradient);  
-}
-
-#resources{
-  background-color: var(--Background-gradient);  
-}
-
-#aboutUs{
-  background-color: var(--Background-gradient);
-  color: var(--Hover-orange)
-} 
-
-#afrotadaShop{
   background-color: var(--Background-gradient);
 }
 
-#contactUs{
-  background-color: var(--Background-gradient);  
-} 
-
-#resources a{
-background-color: var(--Background-gradient);
+.home {
+  background-color: var(--Background-gradient);
 }
 
-#resources:hover{
+#resources {
+  background-color: var(--Background-gradient);
+}
+
+#aboutUs {
+  background-color: var(--Background-gradient);
+  color: var(--Hover-orange);
+}
+
+#afrotadaShop {
+  background-color: var(--Background-gradient);
+}
+
+#contactUs {
+  background-color: var(--Background-gradient);
+}
+
+#resources a {
+  background-color: var(--Background-gradient);
+}
+
+#resources:hover {
   width: 13%;
-  background-color: var(--Background-gradient); 
+  background-color: var(--Background-gradient);
 }
 
-#resources:hover #dropDown{
+#resources:hover #dropDown {
   display: block;
   z-index: 2;
 }
 
 #dropDown {
   display: none;
-  background-color: var(--Background-gradient); 
+  background-color: var(--Background-gradient);
 }
 
-#resourcesByCategory{
+#resourcesByCategory {
   font-size: 1.5vw;
 }
 
-#resourcesByCountry{
+#resourcesByCountry {
   font-size: 1.5vw;
 }
 
-#resourcesByMap{
+#resourcesByMap {
   font-size: 1.5vw;
 }
 
-
-#joinOurTeam{
+#joinOurTeam {
   color: var(--Lemon);
   background-color: var(--Background-gradient);
 }
 
-#hamburger{
+#hamburger {
   display: none;
 }
 
 section#underNav {
-  display: flex;  
+  display: flex;
   background-color: var(--Background-gradient);
   padding-bottom: 1%;
 }
 
-
-#aboutUsText{
+#aboutUsText {
   font-size: 1.9vw;
   font-weight: bold;
   color: var(--Orange);
   margin-left: 2vw;
   background-color: var(--Background-gradient);
-  padding-top: 0.3%; 
+  padding-top: 0.3%;
 }
 
-form{
+form {
   display: flex;
   margin-left: 3%;
   margin-right: 4%;
   background-color: var(--Background-gradient);
-  padding-bottom: 1vh;  
+  padding-bottom: 1vh;
 }
 
 input {
@@ -251,14 +245,14 @@ body {
   background-color: var(--Background-colour);
 }
 
-section#intro{
+section#intro {
   display: flex;
   margin-top: 5%;
-  background-color:var(--Background-colour);
+  background-color: var(--Background-colour);
   width: 90%;
 }
 
-#aboutUsContent p{
+#aboutUsContent p {
   width: 80%;
   margin-left: 15%;
   font-size: 1.5vw;
@@ -271,7 +265,7 @@ img#aboutUsContentImage {
   margin-right: 20%;
 }
 
-.purpose{
+.purpose {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -280,12 +274,11 @@ img#aboutUsContentImage {
   font-weight: bolder;
   text-align: justify;
 }
-.purpose img{
- background-color: var(--Background-color);
+.purpose img {
+  background-color: var(--Background-color);
 }
 
-
-.purpose li{
+.purpose li {
   font-size: 1.5vw;
   margin: auto;
   margin-bottom: 5%;
@@ -295,14 +288,15 @@ img#aboutUsContentImage {
 
 main {
   margin: auto;
-  width: 80vw;  
+  width: 80vw;
 }
 
 main img {
-   width: 3vw;
+  width: 3vw;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: var(--Lemon);
   text-align: center;
   text-justify: auto;
@@ -317,26 +311,26 @@ p {
 section#visionAndMission {
   display: flex;
   background-color: var(--Background-colour);
-  width:60%;
+  width: 60%;
   margin: auto;
   margin-top: 5%;
 }
 
-#vision{
+#vision {
   background-color: var(--Background-gradient);
   border-radius: 5%;
   width: 30%;
   margin-right: 15%;
-  margin-left: 10%
+  margin-left: 10%;
 }
 
-#mission{
+#mission {
   background-color: var(--Background-gradient);
   border-radius: 5%;
   width: 30%;
 }
 
-h3{
+h3 {
   background-color: var(--Background-gradient);
   margin-bottom: 0;
   color: var(--Lemon);
@@ -347,7 +341,7 @@ h3{
   border-radius: 10%;
 }
 
-#vision p{
+#vision p {
   background-color: var(--Background-gradient);
   width: 70%;
   margin: auto;
@@ -355,7 +349,7 @@ h3{
   padding-top: 10%;
 }
 
-#mission p{
+#mission p {
   background-color: var(--Background-gradient);
   padding-bottom: 10%;
   width: 80%;
@@ -363,30 +357,30 @@ h3{
   padding-top: 10%;
 }
 
-li img{
+li img {
   width: 1vw;
   margin-right: 5%;
-  background-color: var(--Background-gradient)
+  background-color: var(--Background-gradient);
 }
 .orangeText {
-  color: --var(orange)
+  color: --var(orange);
 }
 
-#objectives{
+#objectives {
   width: 45%;
   margin: auto;
   background-color: var(--Background-gradient);
-  display:block;
+  display: block;
   margin-top: 5%;
   border-radius: 5%;
   margin-right: 29%;
 }
 
-#ourObjectivesText{
+#ourObjectivesText {
   margin-bottom: 5%;
 }
 
-#objectives li{
+#objectives li {
   background-color: var(--Background-gradient);
   list-style-type: none;
   padding-left: 10%;
@@ -394,7 +388,7 @@ li img{
   padding-right: 10%;
 }
 
-#objectives li:last-child{
+#objectives li:last-child {
   padding-bottom: 5%;
   text-align: justify;
 }
@@ -403,29 +397,29 @@ li {
   list-style-type: none;
 }
 
-#logoInterpretation{
-  width:45%;
+#logoInterpretation {
+  width: 45%;
   margin: auto;
   display: block;
   margin-top: 5%;
   background-color: var(--Background-gradient);
-  border-radius:5%;
+  border-radius: 5%;
   margin-right: 29%;
   margin-bottom: 5%;
 }
 
-#logoInterpretation p{  
+#logoInterpretation p {
   background-color: var(--Background-gradient);
   padding-left: 5%;
   margin: auto;
   padding-right: 5%;
 }
 
-#logoInterpretation p:last-child{  
+#logoInterpretation p:last-child {
   padding-bottom: 5%;
 }
 
-span{
+span {
   background-color: var(--Background-gradient);
 }
 
@@ -433,7 +427,7 @@ span{
   color: blue;
 }
 
-#brownText{
+#brownText {
   color: brown;
 }
 
@@ -445,18 +439,18 @@ span{
   color: green;
 }
 
-span.orangeText{
+span.orangeText {
   color: orange;
 }
 
-#blackText{
+#blackText {
   color: black;
   font-size: 3vw;
   background-color: var(--Background-colour);
   padding-bottom: 1%;
 }
 
-#ourTeam{
+#ourTeam {
   width: 80%;
   margin: auto;
   margin-bottom: 10%;
@@ -476,12 +470,12 @@ span.orangeText{
   padding-right: 5%;
 }
 
-.teamMemberImg img{
+.teamMemberImg img {
   width: 15vw;
   border-radius: 100%;
 }
 
-p.name{
+p.name {
   color: var(--Lemon);
   font-size: 1.5vw;
   width: 20vw;
@@ -489,7 +483,7 @@ p.name{
   padding-top: 5%;
 }
 
-#teamMemberDesignation{
+#teamMemberDesignation {
   width: 100%;
 }
 /**********************************END OF BODY STYLES********************************************/
@@ -512,7 +506,7 @@ footer {
   margin-top: 2%;
 }
 
-#socialMedia img{
+#socialMedia img {
   margin: auto;
   margin-top: 2vh;
 }
@@ -532,9 +526,8 @@ img#socialMediaIcon3 {
   margin-right: 1vw;
 }
 
-img#socialMediaIcon4{
+img#socialMediaIcon4 {
   width: 3vw;
-  
 }
 
 #policy {
@@ -555,7 +548,7 @@ img#socialMediaIcon4{
   padding-left: 22%;
   font-size: 1.5vw;
   margin-bottom: 5%;
-  width: 40%
+  width: 40%;
 }
 
 #backToTop img {
@@ -565,62 +558,61 @@ img#socialMediaIcon4{
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
- 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   img.afrotadaLogo {
     width: 25%;
     margin-left: 2%;
   }
-  
+
   nav {
-    margin-left:7%;
+    margin-left: 7%;
     font-size: 1.5vw;
     display: none;
     margin-top: 12%;
     margin-right: 5%;
     z-index: 2;
   }
-  
-  nav li{
+
+  nav li {
     font-size: 3.5vw;
     text-align: right;
   }
 
-  #resources:active{
+  #resources:active {
     width: 100%;
     display: block;
   }
 
-  #dropDown{
+  #dropDown {
     display: block;
   }
 
-  #resourcesByCategory{
-    font-size: 3.5vw;
-  }
-  
-  #resourcesByCountry{
+  #resourcesByCategory {
     font-size: 3.5vw;
   }
 
-  #resourcesByMap{
+  #resourcesByCountry {
     font-size: 3.5vw;
   }
 
-  #joinOurTeam{
+  #resourcesByMap {
+    font-size: 3.5vw;
+  }
+
+  #joinOurTeam {
     margin-right: 0;
   }
 
-  #hamburger{
+  #hamburger {
     display: unset;
     position: absolute;
     top: 1.5%;
-    right: 5%;  
+    right: 5%;
     outline: none;
   }
 
-  #underNav{
+  #underNav {
     padding-top: 3%;
   }
 
@@ -653,12 +645,12 @@ img#socialMediaIcon4{
     margin-right: 5%;
   }
 
-  h1{
+  h1 {
     font-size: 5vw;
     margin-right: 0;
   }
 
-  #aboutUsContent p{
+  #aboutUsContent p {
     font-size: 3vw;
     width: 100%;
     margin-left: 8%;
@@ -667,43 +659,43 @@ img#socialMediaIcon4{
   img#aboutUsContentImage {
     margin-left: 20%;
   }
-  
-  #purpose{
-    margin-top:5%;
+
+  #purpose {
+    margin-top: 5%;
   }
 
-  #purpose ul li{
+  #purpose ul li {
     font-size: 3vw;
     text-align: justify;
     margin-top: 2%;
-  } 
+  }
 
-  #purpose ul li img{
+  #purpose ul li img {
     width: 3%;
     background-color: var(--Background-colour);
-  } 
+  }
 
-  section#visionAndMission{
+  section#visionAndMission {
     display: block;
   }
 
-  div#vision{
+  div#vision {
     width: 100%;
     margin-left: 0%;
     margin-bottom: 10%;
   }
 
-  div#mission{
+  div#mission {
     width: 100%;
     margin-left: 0%;
     margin-bottom: 10%;
   }
 
-  h3{
+  h3 {
     font-size: 4vw;
   }
 
-  #vision p{
+  #vision p {
     font-size: 3vw;
     width: 100%;
     text-align: center;
@@ -711,7 +703,7 @@ img#socialMediaIcon4{
     padding-bottom: 5%;
   }
 
-  #mission p{
+  #mission p {
     font-size: 3vw;
     width: 100%;
     text-align: center;
@@ -719,44 +711,43 @@ img#socialMediaIcon4{
     padding-bottom: 5%;
   }
 
-  section#objectives{
+  section#objectives {
     width: 60%;
     margin: auto;
   }
 
-  section#objectives li{
+  section#objectives li {
     font-size: 3vw;
     text-align: justify;
     padding-bottom: 3%;
   }
 
-  section#objectives li img{
+  section#objectives li img {
     width: 5%;
   }
 
-  section#logoInterpretation{
+  section#logoInterpretation {
     width: 60%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
   }
 
-  section#logoInterpretation p{
+  section#logoInterpretation p {
     font-size: 3vw;
     text-align: justify;
     margin-bottom: 3%;
   }
 
-  li{
+  li {
     font-size: 2vw;
   }
 
-
-  .teamProfile{
+  .teamProfile {
     display: block;
   }
 
-  p.name{
+  p.name {
     color: var(--Lemon);
     font-size: 3.5vw;
     width: 40vw;
@@ -764,7 +755,7 @@ img#socialMediaIcon4{
     padding-top: 5%;
   }
 
-  #followUsText{
+  #followUsText {
     font-size: 3.5vw;
     width: 80%;
   }
@@ -785,7 +776,7 @@ img#socialMediaIcon4{
     width: 4vw;
   }
 
-  #policy{
+  #policy {
     margin-left: 0%;
     padding-left: 25%;
   }
@@ -795,14 +786,14 @@ img#socialMediaIcon4{
     margin-right: 2vw;
   }
 
-  #backToTop{
+  #backToTop {
     font-size: 2vw;
     padding-left: 0%;
     margin-left: 5%;
     width: 20%;
   }
 
-  #backToTop img{
+  #backToTop img {
     width: 30%;
     padding-left: 0%;
     margin-left: 7%;

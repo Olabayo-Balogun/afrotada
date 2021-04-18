@@ -118,7 +118,7 @@ nav {
   font-size: 1.5vw;
   display: flex;
   margin-top: 2%;   
-  margin-left: 25.5%;
+  margin-left: 25%;
   background-color: var(--Background-gradient);  
 }
 
@@ -134,18 +134,30 @@ nav li {
 }
 
 #resources{
+  background-color: var(--Background-gradient);  
+}
+
+#aboutUs{
+  background-color: var(--Background-gradient);
+} 
+
+#afrotadaShop{
   background-color: var(--Background-gradient);
 }
 
+#contactUs{
+  background-color: var(--Background-gradient);  
+} 
+
 #resources a{
-  background-color: var(--Background-gradient);
+background-color: var(--Background-gradient);
 }
-  
+
 #resources:hover{
   width: 13%;
   background-color: var(--Background-gradient); 
 }
-  
+
 #resources:hover #dropDown{
   display: block;
   z-index: 2;
@@ -158,30 +170,16 @@ nav li {
 
 #resourcesByCategory{
   font-size: 1.5vw;
-  background-color: var(--Background-gradient); 
 }
 
 #resourcesByCountry{
   font-size: 1.5vw;
-  background-color: var(--Background-gradient); 
 }
 
 #resourcesByMap{
   font-size: 1.5vw;
-  background-color: var(--Background-gradient); 
-}  
-
-#aboutUs{
-  background-color: var(--Background-gradient);  
-} 
-
-#afrotadaShop{
-  background-color: var(--Background-gradient);
 }
 
-#contactUs{
-  background-color: var(--Background-gradient);  
-} 
 
 #joinOurTeam{
   color: var(--Lemon);
@@ -192,35 +190,38 @@ nav li {
   display: none;
 }
 
-section {
+section#underNav {
   display: flex;  
   background-color: var(--Background-gradient);
   padding-bottom: 1%;
 }
 
 #africanHistoricalSitesText{
-  font-size: 1.9vw;
-  font-weight: bold;
-  color: var(--Orange);
-  margin-left: 2vw;
-  background-color: var(--Background-gradient);
-  padding-top: 0.3%; 
+    font-size: 1.9vw;
+    font-weight: bold;
+    color: var(--Orange);
+    margin-left: 2vw;
+    background-color: var(--Background-gradient);
+    padding-top: 0.3%; 
+}  
+
+#historicalSiteSnippetText h3{
+    font-size: 3rem;
 }
 
 #historicalSitesImage{
-  background-color: var(--Background-gradient);
-  width: 8%;
-  margin-left: 3%;
-}
-
+    background-color: var(--Background-gradient);
+    width: 8%;
+    margin-left: 3%;
+  }
+  
 form{
   display: flex;
-  margin-left: 18%;
-  margin-right: 5.5%;
+  margin-left: 25.5%;
+  margin-right: 2%;
   background-color: var(--Background-gradient);
   padding-bottom: 1vh;  
 }
-
 
 
 input {
@@ -263,109 +264,103 @@ body {
 }
 
 main {
-  background-color: var(--Background-colour);
-}
-
-.historicalSite {
-  display: flex;
   width: 80%;
   margin: auto;
-  padding-top: 5%;
-}
-
-.historicalSite img {
-  width: 80%;
+  margin-top: 5%;
   background-color: var(--Background-colour);
 }
 
-.contributionDetails{
+#historicalSiteSnippet{
+  display: flex;
+  background-color: var(--Background-colour);
+  width: 100%;
+}
+
+#historicalSiteSnippet ul{
+  margin-bottom: 2%;
   display: flex;
 }
 
-#detailsDate{
-  margin-right: 1vw;
+#historicalSiteSnippet ul:first-child{
+    list-style: none;
 }
 
-h3{
-  font-size: 2vw;
+#historicalSiteSnippetImage img{
+  width: 80%;
+  margin-left: 20%;
+}
+
+#historicalSiteSnippetText ul li{
+  margin-right: 5%;
+  margin-left: 2%;
+  font-size: 1.5vw;
+}
+
+#lineImage{
+  width: 80%;
+}
+
+#historicalSiteSnippetText img{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 p{
-  font-size: 1.5625vw;
-  padding-top: 5%;
-  text-align: justify;
+    font-size: 1.5625vw;
+    padding-top: 5%;
+    text-align: justify;
+  }
+
+h3{
+  font-size: 2vw;
+  font-weight: bold;
 }
 
-#continueReadingButton{
-  width: 30%;
-  color: var(--White);
-  padding: 1%;
-  padding-left: 4%;
-  font-size: 1.5vw;
-  background-color: var(--Active-black);
-  border-radius: 45px;
-  display: inline-block;
-  margin-top: 2%;
-}
-
-#pageNumber {
-  display: flex;
+#otherInformation{
   background-color: var(--Background-colour);
   width: 80%;
   margin: auto;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin-top: 5%;
+  display: block;
 }
 
-#firstPage{
-  padding-right: 10%;
-  width: 80%;
+#historicalSiteSummaryTag{
+  display: block;
+  margin-bottom: 3%;
 }
 
-#previousPage{
-  padding-right: 10%;
-  width: 80%;
+#historicalSiteSummaryTag span{
+  background-color: var(--Background-gradient);
+  margin-right: 1%;
+  padding: 1%;
 }
 
-#pageOne{
-  padding-right: 10%;
-  width: 80%;
+a span{
+  color: var(--Hover-orange);
 }
 
-#pageTwo{
-  padding-right: 10%;
-  width: 80%;
+#aboutContributor{
+  margin-top: 3%;
 }
 
-#pageThree{
-  padding-right: 10%;
-  width: 80%;
+#aboutContributorDetails{
+  display: flex;
+  margin-top: 3%;
 }
 
-#pageFour{
-  padding-right: 10%;
-  width: 80%;
+#contributorImage img{
+  width: 60%;
+  border-radius: 100%; 
 }
 
-#pageFive{
-  padding-right: 10%;
-  width: 80%;
+#contributorBio p{
+  padding-top: 0;
 }
 
-#pageSix{
-  padding-right: 10%;
-  width: 80%;
+#contributorBio p img{
+  margin-left: 1%;
 }
 
-#nextPage{
-  padding-right: 10%;
-  width: 80%;
-}
-
-#lastPage{
-  padding-right: 10%;
-  width: 80%;
-}
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
 /**********************************END OF BODY STYLES********************************************/
@@ -383,7 +378,7 @@ footer {
   width: 15vw;
   text-align: center;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 10%;
   margin-bottom: 2%;
 }
 
@@ -391,8 +386,8 @@ footer {
   margin: auto;
   margin-top: 2vh;
 }
-
 img#socialMediaIcon1 {
+
   width: 3vw;
   margin-right: 1vw;
 }
@@ -440,7 +435,7 @@ img#socialMediaIcon4{
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
 /**********************************END OF FOOTER STYLES********************************************/
-   @media screen and (max-width: 480px){
+@media screen and (max-width: 480px){
   img.afrotadaLogo {
     width: 25%;
     margin-left: 2%;
@@ -497,23 +492,19 @@ img#socialMediaIcon4{
     padding-top: 3%;
   }
 
-  #africanhistoricalSitesText {
-    font-size: 3vw;
+  #afrotadaShopText {
+    padding-top: 0.5vh;
   }
 
   form{
-    display: flex;
-    margin-left: 18%;
-    margin-right: 3.5%;
-    background-color: var(--Background-gradient);
-    padding-bottom: 1vh;  
+    margin-left: 28%;
+  margin-right: 2%;
   }
-  
 
   input {
     padding-left: 1vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     font-size: 2vw;
   }
 
@@ -526,30 +517,47 @@ img#socialMediaIcon4{
     margin-right: 5%;
   }
 
+  #africanhistoricalSitesText{
+    font-size: 3vw;
+  }
+
+  #historicalSiteSnippetText h3{
+    font-size: 1.5rem;
+}
+
   h3{
-    font-size: 3.5vw;
+    font-size:3.5vw;
   }
 
   p{
-    font-size: 3vw;
+    font-size: 3.5vw;
+  }
+
+  #historicalSiteSnippetText ul li{
+    font-size: 2.5vw;
+  }
+
+  li{
+    font-size: 2.5vw;
   }
 
   button {
     display: contents;
     color: var(--White);
-    font-size: 2.5vw;
+    font-size: 1.2vw;
+  }
+  
+  #historicalSiteSummaryTag span{
+    font-size: 3.0vw;
   }
 
-  #continueReadingButton{
-    width: 50%;
-    color: var(--White);
-    padding: 1%;
-    padding-left: 4%;
-    font-size: 3.5vw;
-    background-color: var(--Active-black);
-    border-radius: 45px;
-    display: inline-block;
-    margin-top: 2%;
+  #contributorImage img{
+    width: 80%;
+  }
+
+  #contributorBio img{
+    width: 10%;
+    padding-top: 1%;
   }
 
   #followUsText{
